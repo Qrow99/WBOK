@@ -84,7 +84,7 @@ yanchor=0)
 
     # this is just here to test the jump feature and chapter 2
     # remember to get rid of it later
-    jump chapter3
+    # jump blahblahblah
 
     "{b}BOOTING..."
 
