@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 485, in script
+    un "{color="#bf0000"}''Hey Jim! Did you figure out the b-b-b-bot yet!?''"
+Exception: Open text tag at end of string u'{color='.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 485, in script
+    un "{color="#bf0000"}''Hey Jim! Did you figure out the b-b-b-bot yet!?''"
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\ast.py", line 694, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\exports.py", line 1322, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 1127, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 842, in do_display
+    **display_args)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 572, in display_say
+    what_text.update()
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\text\text.py", line 1687, in update
+    tokens = self.tokenize(text)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\text\text.py", line 2157, in tokenize
+    tokens.extend(textsupport.tokenize(i))
+  File "textsupport.pyx", line 122, in renpy.text.textsupport.tokenize
+Exception: Open text tag at end of string u'{color='.
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+The Karen Beta 1.0
+Wed Apr 17 10:31:07 2019
