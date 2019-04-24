@@ -10,6 +10,7 @@ define un = Character("???", color="#bf0000")
 define n = Character("Nico", color="#bf0000")
 define r = Character("Rick Morrison", color="#FC983B")
 define i = Character("Intercom", color="ffffff")
+define e = Character("Erika")
 
 
 # The game starts here.
@@ -83,7 +84,7 @@ yanchor=0)
 
     # this is just here to test the jump feature and chapter 2
     # remember to get rid of it later
-    jump chapter2
+    jump chapter3
 
     "{b}BOOTING..."
 
