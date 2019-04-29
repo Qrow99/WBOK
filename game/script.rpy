@@ -10,7 +10,7 @@ define un = Character("???", color="#bf0000")
 define n = Character("Nico", color="#bf0000")
 define r = Character("Rick Morrison", color="#FC983B")
 define i = Character("Intercom", color="ffffff")
-define e = Character("Erika")
+define e = Character("Erika", color="99ccff")
 
 
 # The game starts here.
