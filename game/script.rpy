@@ -11,6 +11,7 @@ define n = Character("Nico", color="#bf0000")
 define r = Character("Rick Morrison", color="#FC983B")
 define i = Character("Intercom", color="ffffff")
 define e = Character("Erika", color="99ccff")
+define ue = Character("???", color="99ccff")
 
 
 # The game starts here.
@@ -685,6 +686,8 @@ yanchor=0) with ease
     show chapter end at center with fade
 
     "{b}END OF CHAPTER 1"
+
+    jump chapter2
 
 
 

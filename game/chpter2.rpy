@@ -3,6 +3,8 @@
 
 label chapter2:
 
+    hide chapter end with fade
+
     "{b}BOOTING..."
 
     hide sleep online
@@ -921,6 +923,8 @@ yanchor=0) with ease
     show chapter end at center with fade
 
     "{b}END OF CHAPTER 2"
+
+    jump chapter3
 
 
 
