@@ -126,10 +126,14 @@ yanchor=0)
     "It has occurred to me that I have never actually looked into my own schematics."
 
     # throw in a blueprint sketch
+    show blueprint at Position(xpos=1079, xanchor=0, ypos=558,
+yanchor=0)
 
     "According to the rough blueprints left on Creator’s hard drive, I appear to be a humanoid of some sort, but I am unable to decipher the accompanying text."
 
     # then get rid of it all
+    hide blueprint
+    hide regret
 
     j "{color=#f388b8}''Look, I have some documents that corroborate the morality of my study, if you’d like to see them. I have some letters from acclaimed psychologists, the signature of a sociology professor from the local college...''"
 
@@ -559,7 +563,7 @@ yanchor=0) with dissolve
 
     hide erika with dissolve
 
-    show jim embarassed behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+    show jim inquire behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with ease
 
     """
@@ -613,7 +617,7 @@ yanchor=0) with ease
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
-    j "''I guess I’m saying... that I’m proud of you, Karen. I’m very impressed.''"
+    j "{color=#f388b8}''I guess I’m saying... that I’m proud of you, Karen. I’m very impressed.''"
 
     hide searching
 
@@ -635,12 +639,14 @@ yanchor=0)
 
     k "''Creator, I am shutting down.''"
 
-    show jim neutral
+    show jim angery
 
     j "{color=#f388b8}''Already, huh?
     Geez, I can’t believe I spent that much time fumbling around for papers that were already on my computer.''"
 
     k "''You were aware these files were on your hard drive?''"
+
+    show jim neutral
 
     j "{color=#f388b8}''Hm? Oh, sorry. I was just thinking out loud.
     You can ignore that.''"
