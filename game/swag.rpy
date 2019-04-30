@@ -120,6 +120,8 @@ yanchor=0) with ease
     e "{color=#99ccff}''Are we looking at the same thing right now? Because I don’t see anything ‘morally ambiguous’ about this situation we have here!''"
 
     # whatever the hell we're doing for this, put it here
+    show regret at Position(xpos=1079, xanchor=0, ypos=558,
+yanchor=0)
 
     "It has occurred to me that I have never actually looked into my own schematics."
 

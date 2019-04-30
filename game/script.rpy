@@ -82,6 +82,82 @@ yanchor=0)
         pause 1
         repeat
 
+    image regret:
+        "regret 1.png"
+        pause 0.1
+        "regret 2.png"
+        pause 0.1
+        "regret 3.png"
+        pause 0.1
+        "regret 4.png"
+        pause 0.1
+        "regret 5.png"
+        pause 0.1
+        "regret 6.png"
+        pause 0.1
+        "regret 7.png"
+        pause 0.1
+        "regret 8.png"
+        pause 0.1
+        "regret 9.png"
+        pause 0.1
+        "regret 10.png"
+        pause 0.1
+        "regret 11.png"
+        pause 0.1
+        "regret 12.png"
+        pause 0.1
+        "regret 13.png"
+        pause 0.1
+        "regret 14.png"
+        pause 0.1
+        "regret 15.png"
+        pause 0.1
+        "regret 16.png"
+        pause 0.1
+        "regret 17.png"
+        pause 0.1
+        "regret 18.png"
+        pause 0.1
+        "regret 19.png"
+        pause 0.1
+        "regret 20.png"
+        pause 0.1
+        "regret 21.png"
+        pause 0.1
+        "regret 22.png"
+        pause 0.1
+        "regret 23.png"
+        pause 0.1
+        "regret 24.png"
+        pause 0.1
+        "regret 25.png"
+        pause 0.1
+        "regret 26.png"
+        pause 0.1
+        "regret 27.png"
+        pause 0.1
+        "regret 28.png"
+        pause 0.1
+        "regret 29.png"
+        pause 0.1
+        "regret 30.png"
+        pause 0.1
+        "regret 31.png"
+        pause 0.1
+        "regret 32.png"
+        pause 0.1
+        "regret 33.png"
+        pause 0.1
+        "regret 34.png"
+        pause 0.1
+        "regret 35.png"
+        pause 0.1
+        "regret 36.png"
+        pause 0.1
+        repeat
+
+
 
     # this is just here to test the jump feature and chapter 2
     # remember to get rid of it later
