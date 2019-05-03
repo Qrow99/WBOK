@@ -152,6 +152,7 @@ yanchor=0)
     j "{color=#f388b8}''Alright. In that case, I’ll be right back.''"
 
     hide jim with dissolve
+    
     show erika angery at Position(xpos=537, xanchor=0, ypos=110,
 yanchor=0) with ease
 
@@ -635,7 +636,7 @@ yanchor=0)
 
     hide jimcpu online
 
-    "''{b}WIRELESS FIDELITY: DEACTIVATED.''"
+    "{b}WIRELESS FIDELITY: DEACTIVATED."
 
     k "''Creator, I am shutting down.''"
 
@@ -653,9 +654,9 @@ yanchor=0)
 
     show ocular offline with dissolve
 
-    show jim happy
+    hide jim
 
-    "''{b}OCULAR LENSES: DEACTIVATED.''"
+    "{b}OCULAR LENSES: DEACTIVATED."
 
     k "''Creator, I do not understand. Why would you go through the effort of retrieving hard copies of the papers if you knew they were available?''"
 
@@ -664,7 +665,7 @@ yanchor=0)
 
     hide stt
 
-    "''{b}SPEECH TO TEXT: DISCONNECTED.''"
+    "{b}SPEECH TO TEXT: DISCONNECTED."
 
     k "''Creator...?''"
 
@@ -677,5 +678,6 @@ yanchor=0)
 
     "{b}END OF CHAPTER 3"
 
+    jump chapter4
 
     return
