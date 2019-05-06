@@ -197,6 +197,8 @@ yanchor=0) with dissolve
     n "{color=#bf0000}''I m-m-m-made this for you, since you may find yourself in the real world no less than 24 hours from now.''"
 
     # put an image of the sharpened jenga block and the little "du nu nu nuuuuuuuu!" se here
+    show wannasee at Position(xpos=1079, xanchor=0, ypos=558,
+yanchor=0)
 
     "He opened his palm to reveal a small wooden block sharpened to a point."
 
@@ -216,6 +218,7 @@ yanchor=0)
     "The item appears to be cheap. It likely originates from a children’s board game, or something similar."
 
     hide searching
+    hide wannasee
 
     k  "''May I ask why you are gifting this to me?''"
 

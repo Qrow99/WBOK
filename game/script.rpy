@@ -53,6 +53,13 @@ yanchor=0)
         pause 0.1
         repeat
 
+    image wannasee:
+        "wannasee 1.png"
+        pause 0.5
+        "wannasee 2.png"
+        pause 0.5
+        repeat
+
     image weewoo:
         "weewoo 10.png"
         pause 0.03
