@@ -41,7 +41,7 @@ yanchor=0)
 
     "It is possible that Creator or Nico adjusted something within the past twenty four hours, as the booting process has gone far smoother today than it had yesterday."
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''So, Karen, do you feel any different today?''"
 
@@ -60,10 +60,10 @@ yanchor=0)
     "Suddenly, an angry girl burst into the room, loudly insulting Creator."
 
     # erika comes in
-    show jim happy at Position(xpos=400, xanchor=0, ypos=115,
+    show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show erika angery behind ocular at Position(xpos=673, xanchor=0,
+    show erika angery behind ocular at Position(xpos=400, xanchor=0,
     ypos=110, yanchor=0) with dissolve
 
     show jim neutral
@@ -152,7 +152,7 @@ yanchor=0)
     j "{color=#f388b8}''Alright. In that case, I’ll be right back.''"
 
     hide jim with dissolve
-    
+
     show erika angery at Position(xpos=537, xanchor=0, ypos=110,
 yanchor=0) with ease
 
@@ -523,10 +523,10 @@ yanchor=0)
 
     "At that moment, Creator reentered the room, holding in his arms a small stack of folders and loose papers, looking both exhausted and exasperated."
 
-    show erika inquire behind ocular at Position(xpos=673, xanchor=0,
+    show erika inquire behind ocular at Position(xpos=400, xanchor=0,
 ypos=110, yanchor=0) with ease
 
-    show jim angery at Position(xpos=400, xanchor=0, ypos=115,
+    show jim angery at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
     j "{color=#f388b8}''Whew... Alright! Here they are, all of them! All the letters, all the signatures, everything!''"

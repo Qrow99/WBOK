@@ -44,7 +44,7 @@ yanchor=0)
     feels suboptimal."
     "Is this what it means to be groggy?"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Does everything seem to be working correctly today?''"
 
@@ -54,7 +54,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Perfect! An improvement from yesterday, at least.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Oh, hopefully this isn't too alarming for you, but
     we're going to be having a special guest in the lab today.''"
@@ -75,7 +75,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Not really. Well, sort of.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''The head of the school newspaper is a good friend of
     mine, and he's coming here today to do a quick interview.''"
@@ -94,15 +94,15 @@ yanchor=0)
 
     k "''Who is your friend?''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Well, his name is...''"
 
-    show jim explain at Position(xpos=400, xanchor=0, ypos=110,
+    show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show rick neutral behind ocular at Position(xpos=673, xanchor=0,
-ypos=110, yanchor=0) with dissolve
+    show rick neutral behind ocular at Position(xpos=400, xanchor=0,
+ypos=115, yanchor=0) with dissolve
 
     r "{color=#FC983B}''Rick A. Morrison, head of the WJHS online school
     newspaper and president of the school journalism club.''"
@@ -132,7 +132,7 @@ ypos=110, yanchor=0) with dissolve
 
     j "{color=#f388b8}''Karen. Her name is Karen.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Actually, on second thought, why don't you try
     introducing yourself?''"
@@ -220,7 +220,7 @@ yanchor=0)
 
     k "''Specific purpose...''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''I think he means your primary directive.''"
 
@@ -248,7 +248,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Thanks. I just wanted to clear something up.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''It’s not so much that Karen doesn’t have a plan on
     completing her directive, it’s just that it’s more like an outline.''"
@@ -324,7 +324,7 @@ yanchor=0)
 
     j "{color=#f388b8}''I suppose so...''"
 
-    show jim explain
+    show jim happy
 
     j """
     {color=#f388b8}''IQ is kind of difficult to estimate, but I can probably do grade level.''
@@ -434,7 +434,7 @@ yanchor=0)
     r "{color=#FC983B}''Are you implying the questions I’ve supplied are inadequate, Mister
     MacGuffin?''"
 
-    show jim worried
+    show jim angery
 
     j "{color=#f388b8}''What? No no, I just meant that...''"
 
@@ -475,7 +475,7 @@ yanchor=0)
 
     j "{color=#f388b8}''I don't think that's necessary.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Her body is both fire and waterproof, so even if the sprinklers come
     on she should be fine.''"
@@ -513,7 +513,7 @@ yanchor=0)
 
     hide jim with dissolve
 
-    show rick inquire at Position(xpos=537, xanchor=0, ypos=110,
+    show rick inquire at Position(xpos=537, xanchor=0, ypos=115,
 yanchor=0) with ease
 
     "As the sirens' shrieking finally began to fade away, Creator made his
@@ -607,7 +607,7 @@ yanchor=0)
     "Joke. Noun. Something said for the purpose of causing laughter or
     amusement."
 
-    k "''My apologies. Your joke was quite humorous.''"
+    k "''115apologies. Your joke was quite humorous.''"
 
     show rick embarassed
 
@@ -754,10 +754,10 @@ yanchor=0)
     "The intercom stopped, and Rick attempted to speak again. However, before
     he could get more than a few words out, Creator rushed into the room."
 
-    show rick neutral behind ocular at Position(xpos=673, xanchor=0,
-ypos=110, yanchor=0) with ease
+    show rick neutral behind ocular at Position(xpos=400, xanchor=0,
+ypos=115, yanchor=0) with ease
 
-    show jim embarassed at Position(xpos=400, xanchor=0, ypos=110,
+    show jim embarassed at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
     "Though he appeared as composed as usual, his breaths were heavy and he
@@ -817,7 +817,7 @@ yanchor=0) with dissolve
 
     j "{color=#f388b8}''Well now you've made me curious.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Would it be alright if I took a peek at what you wrote while I was
     gone?''"
@@ -867,7 +867,7 @@ yanchor=0) with ease
 
     k "''I believe he was. I have formed multiple opinions in your absence.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''You have? I'd love to hear them!''"
 

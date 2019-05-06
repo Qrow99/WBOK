@@ -35,7 +35,7 @@ label start:
  yanchor=0)
     image wifi = "wifi online.png"
     image stt = "stt online.png"
-    show jim neutral behind ocular at Position(xpos=537, xanchor=0, ypos=110,
+    show jim neutral behind ocular at Position(xpos=537, xanchor=0, ypos=115,
 yanchor=0)
 
     image searching:
@@ -243,7 +243,7 @@ yanchor=0)
 
     "So this is not merely a video. This boy is in fact talking to me."
 
-    show jim explain
+    show jim happy
 
     u "{color=#f388b8}''So I bet you’re pretty confused right now, and that’s okay! So...
     uh...''"
@@ -252,7 +252,7 @@ yanchor=0)
 
     u "{color=#f388b8}''Sorry, I always forget how best to do this.''"
 
-    show jim explain
+    show jim happy
 
     u "{color=#f388b8}''I guess I’ll start with this: My name is Jim MacGuffin.
     I’m a student at William Joel high school and I... well...''"
@@ -284,7 +284,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Just wait, it gets better!''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''You're not just any robot, you’re known as the Knowledge Adaptation
     and Reception unit, and you are the third of your kind.''"
@@ -309,7 +309,7 @@ yanchor=0)
 
     k "''I do not recognize the word 'semantics.' Can you define it?''"
 
-    show jim explain
+    show jim happy
 
     j """
     {color=#f388b8}''I suppose I could, but I think I have a better idea!''
@@ -374,7 +374,7 @@ yanchor=0)
 
     k "''Should I be concerned with how other people find my behavior?''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Well, of course!''"
 
@@ -387,7 +387,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Well, I guess I'm telling you now!''"
 
-    show jim explain
+    show jim happy
 
     j """
     {color=#f388b8}''Essentially, you’ve been built with the purpose of eventually fitting
@@ -405,7 +405,7 @@ yanchor=0)
 
     j "{color=#f388b8}''That's... not an easy question to answer.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''As a start, I'd say try focusing on speech.''"
 
@@ -475,7 +475,7 @@ yanchor=0)
 
     j "{color=#f388b8}''Maybe we should change the subject...''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Why don't I tell you about the test?''"
 
@@ -496,7 +496,7 @@ yanchor=0)
 
     j "{color=#f388b8}''At least, it sure did with K.A.R. 2...''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''So in order to prove that you’re, uh, socially acceptable enough,
     I’ve decided that it’s best to give you a test at the end of the week,
@@ -603,10 +603,10 @@ yanchor=0)
 
     j "{color=#f388b8}''Oh, hey Nico! Come see for yourself!''"
 
-    show jim happy at Position(xpos=400, xanchor=0, ypos=110,
+    show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show nico neutral behind ocular at Position(xpos=673, xanchor=0,
+    show nico neutral behind ocular at Position(xpos=400, xanchor=0,
     ypos=110, yanchor=0) with dissolve
 
     "A hunched over boy clutching his own body approaches. As he does so, he
@@ -652,14 +652,14 @@ yanchor=0) with ease
     whole way. All the while, he kept his eyes plastered on me until he fully
     exited."
 
-    show jim embarassed at Position(xpos=537, xanchor=0, ypos=110,
+    show jim embarassed at Position(xpos=537, xanchor=0, ypos=115,
 yanchor=0) with ease
 
     k "''Creator, who was that person?''"
 
     j "{color=#f388b8}''Heh... That gentleman you just saw is named Nico.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''He's a good friend of mine and, though he may not look it, he's
     actually an extremely skilled programmer.''"
@@ -687,7 +687,7 @@ yanchor=0) with ease
     j "{color=#f388b8}''Oh, right! Me and Nico haven't finished your movement parameters yet,
     so of course you wouldn't be able to see yourself.''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''If you're really curious, you can look at your blueprints on my hard
     drive.''"
@@ -706,7 +706,7 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''Just for today, though! Don't worry!''"
 
-    show jim explain
+    show jim happy
 
     j "{color=#f388b8}''Nico and I are working on finding a better battery for you, but for
     now you can’t actually stay on for more than a half an hour or so.''"
