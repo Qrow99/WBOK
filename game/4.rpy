@@ -488,12 +488,11 @@ yanchor=0)
     k  "''Nico, please explain why you are so confident in me.''"
 
     show ocular offline with dissolve
+    hide nico
 
     "{b}OCULAR LENSES: DEACTIVATED."
 
     n "{color=#bf0000}''Can’t a g-g-g-guy just have some c-c-c-c-c-confidence in his creation?!''"
-
-    show nico angery
 
     n "{color=#bf0000}''Lay off already! I don’t want to talk about it!''"
 
@@ -515,6 +514,8 @@ yanchor=0)
     show chapter end at center with fade
 
     "{b}END OF CHAPTER 4"
+
+    jump chapter5
 
 
     return

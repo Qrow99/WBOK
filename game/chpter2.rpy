@@ -101,8 +101,8 @@ yanchor=0)
     show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show rick neutral behind ocular at Position(xpos=400, xanchor=0,
-ypos=115, yanchor=0) with dissolve
+    show rick neutral behind ocular at Position(xpos=300, xanchor=0,
+ypos=84, yanchor=0) with dissolve
 
     r "{color=#FC983B}''Rick A. Morrison, head of the WJHS online school
     newspaper and president of the school journalism club.''"
@@ -230,7 +230,7 @@ yanchor=0)
     r "{color=#FC983B}''Integration? I see.''"
 
     r "{color=#FC983B}''Quite a novel objective, seeing as machines are
-    usually built to surpass human limitations, rather than abide by them."
+    usually built to surpass human limitations, rather than abide by them.''"
 
     r "{color=#FC983B}''How do you plan to accomplish this goal, Miss Karen?''"
 
@@ -607,7 +607,7 @@ yanchor=0)
     "Joke. Noun. Something said for the purpose of causing laughter or
     amusement."
 
-    k "''115apologies. Your joke was quite humorous.''"
+    k "''My apologies. Your joke was quite humorous.''"
 
     show rick embarassed
 
