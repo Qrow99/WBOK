@@ -60,13 +60,11 @@ yanchor=0)
     "Suddenly, an angry girl burst into the room, loudly insulting Creator."
 
     # erika comes in
-    show jim happy at Position(xpos=673, xanchor=0, ypos=115,
+    show jim neutral at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
     show erika angery behind ocular at Position(xpos=400, xanchor=0,
     ypos=110, yanchor=0) with dissolve
-
-    show jim neutral
 
     j "{color=#f388b8}''Um... Hi, Erika. Is there something wrong?''"
 

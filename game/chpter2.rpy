@@ -513,7 +513,7 @@ yanchor=0)
 
     hide jim with dissolve
 
-    show rick inquire at Position(xpos=537, xanchor=0, ypos=115,
+    show rick inquire at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with ease
 
     "As the sirens' shrieking finally began to fade away, Creator made his
@@ -754,10 +754,10 @@ yanchor=0)
     "The intercom stopped, and Rick attempted to speak again. However, before
     he could get more than a few words out, Creator rushed into the room."
 
-    show rick neutral behind ocular at Position(xpos=400, xanchor=0,
-ypos=115, yanchor=0) with ease
+    show rick neutral behind ocular at Position(xpos=300, xanchor=0,
+ypos=84, yanchor=0) with ease
 
-    show jim embarassed at Position(xpos=673, xanchor=0, ypos=115,
+    show jim embarassed behind ocular at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
     "Though he appeared as composed as usual, his breaths were heavy and he
