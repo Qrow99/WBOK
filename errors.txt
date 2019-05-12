@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/thelastone.rpy", line 302: expected ':' not found.
-    label FRICK
-               ^
+File "game/thelastone.rpy", line 351: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        j "''Okay! That does it for part two! You're really 
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Fri May 10 17:29:24 2019
+Sat May 11 20:37:24 2019

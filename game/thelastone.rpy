@@ -270,6 +270,9 @@ yanchor=0) with dissolve
 
     r "''Well then, hopefully I have an answer.''"
 
+    # for now, I'm going to just put in the choices and do fill them in later because...
+    # because idk I feel like it
+
     menu:
         k "''I wanted to ask...''"
 
@@ -305,6 +308,84 @@ label R3:
 label FRICK:
     k "''Goodbye, Rick Morrison.''"
 
+    hide rick with dissolve
+
+    "With heavy steps and not a word more, Rick Morrison left the room."
+
+    show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+yanchor=0) with dissolve
+
+    "Following shortly was Creator, now holding a fresh stack of papers."
+
+    show jim embarassed
+
+    j "''Sorry to keep you waiting, I didn't realize how unorganized my papers were until just now...''"
+    j "''Anyways, I hope you didn't get too bored while I was gone.''"
+
+    k "''I was not bored. Rick Morrison stopped by.''"
+
+    show jim inquire
+
+    j "''Really? Did he need something from me?''"
+
+    k "''He did not. He said he only wanted to see me.''"
+
+    show jim neutral
+
+    j "''I see...''"
+
+    show jim happy
+
+    j "''Well that was rather nice of him, wasn't it?''"
+    j "''Anyways, we should probably be getting back to this test, huh? Time for part two!''"
+
+    show chapter end at center with fade
+
+    show jim neutral
+
+    "{b}..."
+
+    hide chapter end with fade
+
+    show jim happy
+
+    j "''Okay! That does it for part two! You're really cruising through these, huh?''"
+
+    k "''Is completing this task quickly undesirable?''"
+
+    show jim embarassed
+
+    j "''No, it was just an observation.''"
+
+    show jim happy
+
+    j "''Anyways, you know the drill. Be right back!''"
+
+    hide jim with dissolve
+
+    "Once again, Creator exits the room, papers in hand."
+    "Only seconds later, another figure comes to take his place."
+
+    show erika happy behind ocular at Position(xpos=485, xanchor=0, ypos=84,
+yanchor=0) with dissolve
+
+    e "''Hey Karen!''"
+
+    k "''Hello, Erika. What brings you here today?''"
+
+    # Hey here's a quick idea
+    # Maybe if Karen fails the interaction with Rick, Erika instead says "what's up?"
+    # And Karen responds with something like "the ceiling" and they have an awkward laugh
+    # It's funny, but it also indicates that Karen doesn't fully understand the language
+
+    e "''Just wanted to check up on you and make sure everything was all good here.''"
+
+    k "''I appreciate it.''"
+
+    e "''Anytime!''"
+    e "''So, has Jim got any special plans for you today? Couldn’t help but notice that he isn’t here.''"
+
+    
 
 
 
