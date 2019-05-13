@@ -382,10 +382,110 @@ yanchor=0) with dissolve
 
     k "''I appreciate it.''"
 
+    show erika happy ex
+
     e "''Anytime!''"
+
+    show erika happy
+
     e "''So, has Jim got any special plans for you today? Couldn’t help but notice that he isn’t here.''"
 
-    
+    k "''Today, Creator is giving me an exam to determine if I am fit to enter society.''"
+
+    show erika surprise
+
+    e "''Really? That's so cool! Is the test hard?''"
+
+    k "''I am unsure. The questions do not have explicit, definitive, or numerical answers.''"
+    k "''Mostly, they consist of simply talking.''"
+
+    show erika neutral
+
+    e "''Huh, that's pretty weird. Like a test from a speech class or something.''"
+
+    k "''I suppose so.''"
+
+    show erika happy ex
+
+    e "''Well, good luck either way! I'm sure you'll do great!''"
+
+    k "''Thank you.''"
+
+    show erika happy
+
+    e "''Yeah, no problem!''"
+    e "''...''"
+
+    show erika neutral
+
+    e "''Hey, hope this doesn’t offend you, but I’m not really in the mood to talk to Jim today, so I think I’m going to head out before he gets back. See ya!''"
+
+    "As Erika began to leave, I felt it again."
+    "The mysterious feeling that compelled me to say something, it sprang up once again."
+
+    k "''Erika, wait.''"
+
+    show erika inquire
+
+    e "''Hm? What is it?''"
+
+    k "''I just remembered. I did want to tell you something.''"
+    k "''My nervous system has been activated. I can feel my limbs and body.''"
+
+    show erika surprise
+
+    e "''Oh really? Well that's great!''"
+
+    show erika happy ex
+
+    e "''So you’ll be, like, walking around and mingling with all sorts of people pretty soon here, huh?''"
+
+    k "''Not necessarily.''"
+
+    show erika inquire
+
+    e "''What do you mean?''"
+
+    k "''According to Creator, I may not be ready.''"
+
+    show erika annoyed
+
+    e "Heh. I should've figured it was something like that.''"
+
+    show erika smug
+
+    e "''Well then how about you forget about Jim for a second, because I’ve got a question for you!''"
+
+    k "''What is it?''"
+
+    show erika happy
+
+    e "''Do YOU think you’re ready to enter the outside world?''"
+
+    k "''Truthfully, I am unsure.''"
+
+    e "''Well, what’s bothering you? Maybe I can help ease your mind a bit!''"
+
+    # for now, I'm going to just put in the choices and do fill them in later because...
+    # because idk I feel like it
+
+    menu:
+        k "''What bothers me...?''"
+
+        "Do you really think I can fit in with society?":
+            jump E1
+
+        "What can I do with a body?":
+            jump E2
+
+        "Can you free me?":
+            jump E3
+
+label R1:
+
+
+
+
 
 
 
