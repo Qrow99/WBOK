@@ -2,12 +2,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define k = Character("Karen", color="#4be54b")
+define k = Character("Karen", color="#4BE54B")
 define u = Character("???", color="#f388b8")
 define j = Character("Jim", color="#f388b8")
 define m = Character("Me", color="#4be54e")
-define un = Character("???", color="#bf0000")
-define n = Character("Nico", color="#bf0000")
+define un = Character("???", color="#ff2b2b")
+define n = Character("Nico", color="#ff2b2b")
 define r = Character("Rick Morrison", color="#FC983B")
 define i = Character("Intercom", color="ffffff")
 define e = Character("Erika", color="99ccff")
@@ -601,7 +601,7 @@ yanchor=0)
     j "{color=#f388b8}''...Jim Jam on occasion. Sometimes people just call me Twink.
     One guy just calls me Joe for some reason, I don't know why...''"
 
-    un "{color=#bf0000}''Hey Jim! Did you figure out the b-b-b-bot yet!?''"
+    un "{color=#ff2b2b}''Hey Jim! Did you figure out the b-b-b-bot yet!?''"
 
     "In the middle of him listing off his various nicknames, Creator gets
     interrupted by a loud, shaky voice from outside of the room."
@@ -622,11 +622,11 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''So, what do you think?''"
 
-    n "{color=#bf0000}''...''"
+    n "{color=#ff2b2b}''...''"
 
     show nico gross
 
-    n "{color=#bf0000}''THIS is the design you went with?!''"
+    n "{color=#ff2b2b}''THIS is the design you went with?!''"
 
     show jim neutral
 
@@ -635,11 +635,11 @@ yanchor=0) with ease
     show nico angery
 
     n """
-    {color=#bf0000}''These accessories are superfluous!''
+    {color=#ff2b2b}''These accessories are superfluous!''
 
-    {color=#bf0000}''The joints are c-c-c-completely unprotected!''
+    {color=#ff2b2b}''The joints are c-c-c-completely unprotected!''
 
-    {color=#bf0000}''And don't even get me started on the c-c-c-cranium!''
+    {color=#ff2b2b}''And don't even get me started on the c-c-c-cranium!''
     """
 
     show jim embarassed
@@ -648,9 +648,9 @@ yanchor=0) with ease
 
     show nico neutral
 
-    n "{color=#bf0000}''Tch. I'm sure you do.''"
+    n "{color=#ff2b2b}''Tch. I'm sure you do.''"
 
-    n "{color=#bf0000}''I'd suggest some alterations, b-b-b-but I know you wouldn't listen
+    n "{color=#ff2b2b}''I'd suggest some alterations, b-b-b-but I know you wouldn't listen
     to me.''"
 
     hide nico with dissolve

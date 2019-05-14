@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("My Life as a Teenage Toaster")
+define config.name = _("Get it Right the First Time")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,23 +23,13 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.2"
+define config.version = "0.5"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Five o' clock get a call to come play down at the
-skate park down by the mall. But mom says I have to prevent hostile aliens
-from annihilating us all.
-
-HIYAH
-
-With the strength of a million and seventy men I guess I really shouldn't
-complain. But still wish that I could go for a walk without rusting in the
-rain.
-
-I forgot the rest of the words.
+define gui.about = _p("""Is there room for any more Billy Joel references?
 """)
 
 

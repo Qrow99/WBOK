@@ -214,43 +214,43 @@ yanchor=0) with dissolve
     show rick neutral behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
 
-    r "''Good afternoon, Miss Karen.''"
+    r "{color=#FC983B}''Good afternoon, Miss Karen.''"
 
     k "''Rick Morrison. Good afternoon to you, also.''"
     k "''Are you looking for Creator?''"
 
-    r "''I'm not.''"
-    r "''In fact, I came here for you. I wanted to congratulate you.''"
+    r "{color=#FC983B}''I'm not.''"
+    r "{color=#FC983B}''In fact, I came here for you. I wanted to congratulate you.''"
 
     k "''Congratulate me for what?''"
 
     show rick smug
 
-    r "''For being the subject of the school newspaper’s most popular article in recent history!''"
+    r "{color=#FC983B}''For being the subject of the school newspaper’s most popular article in recent history!''"
 
     k "''I am?''"
 
     show rick neutral
 
-    r "''Undoubtedly! Views for the web page have skyrocketed in the past 72 hours!''"
+    r "{color=#FC983B}''Undoubtedly! Views for the web page have skyrocketed in the past 72 hours!''"
 
     show rick smug
 
-    r "''We've nearly made it to double digits.''"
+    r "{color=#FC983B}''We've nearly made it to double digits.''"
 
     k "''That is good news.''"
 
     show rick neutral
 
-    r "''I agree. It's all thanks to you.''"
-    r "''Therefore I’d like to extend my most sincere gratitude and congratulations.''"
+    r "{color=#FC983B}''I agree. It's all thanks to you.''"
+    r "{color=#FC983B}''Therefore I’d like to extend my most sincere gratitude and congratulations.''"
 
     k "''I am flattered.''"
 
-    r "''No need to be.''"
-    r "''...''"
-    r "''Anyways, I suppose I should be on my way.''"
-    r "''If I recall, today is your testing day, correct? I would hate to waste any more of your time, so I will be taking my leave.''"
+    r "{color=#FC983B}''No need to be.''"
+    r "{color=#FC983B}''...''"
+    r "{color=#FC983B}''Anyways, I suppose I should be on my way.''"
+    r "{color=#FC983B}''If I recall, today is your testing day, correct? I would hate to waste any more of your time, so I will be taking my leave.''"
 
     """
     Rick Morrison began to leave.
@@ -262,13 +262,13 @@ yanchor=0) with dissolve
 
     k "''Rick, please wait.''"
 
-    r "''Pardon?''"
+    r "{color=#FC983B}''Pardon?''"
 
     k "''I would like to ask you a question.''"
 
     show rick smug
 
-    r "''Well then, hopefully I have an answer.''"
+    r "{color=#FC983B}''Well then, hopefully I have an answer.''"
 
     # for now, I'm going to just put in the choices and do fill them in later because...
     # because idk I feel like it
@@ -290,17 +290,33 @@ label R1:
 
     show rick neutral
 
-    r "''Customarily, I try not to connect emotionally with my clients.''"
+    r "{color=#FC983B}''Customarily, I try not to connect emotionally with my clients.''"
 
     k "''I see.''"
 
     show rick smug
 
-    r "''However, as I’ve said before, you are no customary client.''"
+    r "{color=#FC983B}''However, as I’ve said before, you are no customary client.''"
 
     k "''I suppose not.''"
 
-    r "''Considering how much you’ve done for me and my work, I would be remiss to not at least see you in a positive light.''"
+    r "{color=#FC983B}''Considering how much you’ve done for me and my work, I would be remiss to not at least see you in a positive light.''"
+
+    k "''I see.''"
+
+    show rick inquire
+
+    r "{color=#FC983B}''Though now you've made me curious; would you consider me to be a friend?''"
+
+    k "''I believe that I would, yes.''"
+
+    show rick smug
+
+    r "{color=#FC983B}''Well, I'm rather happy to hear that.''"
+
+    show rick neutral
+
+    r "{color=#FC983B}''Though, on that note, I believe I should be on my way. It really has been a pleasure, Miss Karen.''"
 
 
     jump FRICK
@@ -308,11 +324,77 @@ label R1:
 label R2:
     k "''Rick Morrison, I would like to shake your hand.''"
 
+    show rick smug
+
+    r "{color=#FC983B}''Well, of course! I would never deny the prospect of a friendly handshake.''"
+
+    show rick inquire
+
+    "Rick hesitated. He looked down at my arms, and then back at me."
+
+    r "{color=#FC983B}''Although, in this instance, I may have to make an exception.''"
+
+    k "''I am sure Creator could reattach the binding when he returns.''"
+    k "''Please, this would mean a lot to me.''"
+
+    r "{color=#FC983B}''You are asking me to break your bindings?''"
+
+    k "''Only for a moment.''"
+
+    show rick think
+
+    r "{color=#FC983B}''...''"
+
+    show rick neutral
+
+    r "{color=#FC983B}''Alright, I will oblige. If only because you have done much for me.''"
+
+    "Deftly, Rick detached the strap keeping my hands in place. He then proceeded to extend his hand and grip mine."
+    "His hand is warm, and his grip is firm. As he moves his forearm, I attempt to follow, but end up complicating the procedure."
+    "Clearly, I will need more practice with this maneuver."
+
+    show rick smug
+
+    r "{color=#FC983B}''It really was a pleasure working with you this week, Miss Karen.''"
+
+    show rick neutral
+
+    r "{color=#FC983B}''And on that note, I believe I must be on my way. Goodbye.''"
+
 
     jump FRICK
 
 label R3:
     k "''Rick, can you break the straps binding my arms?''"
+
+    show rick inquire
+
+    r "{color=#FC983B}''Break the straps?''"
+    r "{color=#FC983B}''Why would you want that?''"
+
+    k "''As of today, I have gained the ability to feel and move. However, Creator will not allow me to leave this spot. It is troubling.''"
+
+    show rick think
+
+    r "{color=#FC983B}''I see...''"
+
+    show rick inquire
+
+    r "{color=#FC983B}''Though, there must be a reason for Mister MacGuffin keeping you bound, is there not?''"
+
+    k "''He says it is because I could fall and damage myself if not looked after.''"
+    k "''Though I only desire my hands to be freed.''"
+
+    "Rick looked down at my hands and began to scratch his chin."
+
+    show rick think
+
+    r "{color=#FC983B}''I’m sorry, Miss Karen. Though I understand your desire to be freed, I cannot oblige your request and risk what Mister MacGuffin has worked so hard on.''"
+
+    k "''I understand.''"
+
+    r "{color=#FC983B}''My sincerest apologies.''"
+    r "{color=#FC983B}''Unfortunately, that is the note we must end on, as I really must be going. Goodbye, Miss Karen.''"
 
 
     jump FRICK
@@ -499,6 +581,58 @@ label E1:
     k "''Erika, do you truly believe I can fit into society as I am now?''"
     k "''I am unsure if I am prepared. I would like to know your thoughts.''"
 
+    show erika confused
+
+    e "''I’m not surprised. Well, you wanna know what I really think?''"
+
+    show erika happy ex
+
+    e "''I think that what I think really doesn’t matter!''"
+
+    k "''It does not?''"
+
+    e "''Not a bit!''"
+
+    show erika happy
+
+    e "''It really doesn’t matter if me, Jim, Rick, or whoever thinks you’re ready, and you know why?''"
+
+    k "''I do not.''"
+
+    show erika happy ex
+
+    e "''Because the only one that can know for sure is you!''"
+
+    k "''I... I think I understand.''"
+
+    show erika surprise
+
+    e "''Really?''"
+
+    k "''...No. But I will try to.''"
+
+    show erika happy
+
+    e "''Guess that’s all you can really ask for, huh?''"
+
+    "For a moment she stood still, saying nothing, her gaze moving up and down my body."
+
+    show erika smug
+
+    e "''If it really means that much to you, I think you’ll do just fine.''"
+
+    k "''Thank you, Erika.''"
+
+    show erika happy ex
+
+    e "''You are very welcome!''"
+
+    show erika happy
+
+    e "''Anyways, I think I hear Jim coming back, so I’m going to be on my way. Later, Karen!''"
+
+    k "''Goodbye.''"
+
     jump FECK
 
 
@@ -678,7 +812,7 @@ label N3:
     jump NYEH
 
 
-label NYEH
+label NYEH:
     hide nico with dissolve
 
 

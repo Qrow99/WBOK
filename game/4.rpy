@@ -57,40 +57,40 @@ yanchor=0)
     It is as if time is progressing at a slower rate than it has in past days. I know, of course, that this is logically impossible, but I still can’t entirely move myself from the idea that...
     """
 
-    n "{color=#bf0000}''HEY! K.A.R. 3! WAKE UP!''"
+    n "{color=#ff2b2b}''HEY! K.A.R. 3! WAKE UP!''"
 
     "Interrupting my thought is Nico, who appears flustered."
 
     show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
-    n "{color=#bf0000}''Are you awake yet? Do I have to p-p-p-press something or...''"
+    n "{color=#ff2b2b}''Are you awake yet? Do I have to p-p-p-press something or...''"
 
     k  "''I am awake.''"
 
     show nico angery
 
-    n "{color=#bf0000}''AH!''"
+    n "{color=#ff2b2b}''AH!''"
 
     show nico unsure
 
-    n "{color=#bf0000}''I m-m-m-mean, uh, good. Yeah.''"
+    n "{color=#ff2b2b}''I m-m-m-mean, uh, good. Yeah.''"
 
     show nico neutral
 
-    n "{color=#bf0000}''So, uh, good morning, I g-g-guess?''"
+    n "{color=#ff2b2b}''So, uh, good morning, I g-g-guess?''"
 
     k  "''I believe it is the afternoon.''"
 
     show nico peeved
 
-    n "{color=#bf0000}''Tch. Alright, fine. Good freaking afternoon, then.''"
+    n "{color=#ff2b2b}''Tch. Alright, fine. Good freaking afternoon, then.''"
 
     k  "''Good afternoon, Creator.''"
 
     show nico gross
 
-    n "{color=#bf0000}''Oh g-g-g-god, do NOT call me that!''"
+    n "{color=#ff2b2b}''Oh g-g-g-god, do NOT call me that!''"
 
     "Suddenly, his demeanor changed. If he were merely irritated before, my comment somehow turned him absolutely irate."
 
@@ -98,11 +98,11 @@ yanchor=0) with dissolve
 
     show nico peeved
 
-    n "{color=#bf0000}''I m-m-m-mean, it is, but...''"
+    n "{color=#ff2b2b}''I m-m-m-mean, it is, but...''"
 
     show nico upset
 
-    n "{color=#bf0000}''Look, you wouldn’t get it. Just don’t call me ‘Creator,’ okay!?''"
+    n "{color=#ff2b2b}''Look, you wouldn’t get it. Just don’t call me ‘Creator,’ okay!?''"
 
     k  "''I understand.''"
 
@@ -110,36 +110,36 @@ yanchor=0) with dissolve
 
     show nico angery
 
-    n "{color=#bf0000}''Wha...? Nico! NI-CO! You know, my name?!''"
+    n "{color=#ff2b2b}''Wha...? Nico! NI-CO! You know, my name?!''"
 
-    n "{color=#bf0000}''You’re supposed to be a learning machine, right?
+    n "{color=#ff2b2b}''You’re supposed to be a learning machine, right?
     Well here’s a lesson: normal p-p-p-people call each other by their names!''"
 
     k  "''I understand. I will now refer to you as Nico.''"
 
     show nico upset
 
-    n "{color=#bf0000}''As you should.''"
+    n "{color=#ff2b2b}''As you should.''"
 
     k  "''I apologize. I did not realize your title would be such a contentious matter.''"
 
-    n "{color=#bf0000}''It’s fine.''"
+    n "{color=#ff2b2b}''It’s fine.''"
 
     show nico peeved
 
-    n "{color=#bf0000}''It’s just, I don’t know, it strikes me as k-k-k-kind of creepy when you call Jim that.''"
+    n "{color=#ff2b2b}''It’s just, I don’t know, it strikes me as k-k-k-kind of creepy when you call Jim that.''"
 
     k  "''Creepy? I do not understand.''"
 
     show nico upset
 
-    n "{color=#bf0000}''Don’t bother trying. It’s, uh, probably for the b-b-b-best.''"
+    n "{color=#ff2b2b}''Don’t bother trying. It’s, uh, probably for the b-b-b-best.''"
 
     k  "''I understand.''"
 
     show nico unsure
 
-    n "{color=#bf0000}''...''"
+    n "{color=#ff2b2b}''...''"
 
     "Nico began looking around the room while making impatient gestures; the only sounds to occur over that of the surrounding machinery were the occasional tapping of his foot or an aggressive sniffle."
 
@@ -151,23 +151,23 @@ yanchor=0) with dissolve
 
     show nico upset
 
-    n "{color=#bf0000}''Tch. Of course you’d ask that.''"
+    n "{color=#ff2b2b}''Tch. Of course you’d ask that.''"
 
     show nico angery
 
-    n "{color=#bf0000}''Well for your information, I have no c-c-c-clue!''"
+    n "{color=#ff2b2b}''Well for your information, I have no c-c-c-clue!''"
 
-    n "{color=#bf0000}''All he told me was that I needed to keep you c-c-c-company today, because he had some sort of ‘emergency’ to attend to! That’s it!''"
+    n "{color=#ff2b2b}''All he told me was that I needed to keep you c-c-c-company today, because he had some sort of ‘emergency’ to attend to! That’s it!''"
 
     k  "''I assume he did not tell you anything else.''"
 
     show nico upset
 
-    n "{color=#bf0000}''You assume correctly.''"
+    n "{color=#ff2b2b}''You assume correctly.''"
 
     show nico unsure
 
-    n "{color=#bf0000}''...''"
+    n "{color=#ff2b2b}''...''"
 
     """
     Once again, Nico returned to standing in silence.
@@ -181,11 +181,11 @@ yanchor=0) with dissolve
 
     show nico peeved
 
-    n "{color=#bf0000}''Huh? No. That was supposed to be Jim’s job. You know, if he were here.''"
+    n "{color=#ff2b2b}''Huh? No. That was supposed to be Jim’s job. You know, if he were here.''"
 
     show nico neutral
 
-    n "{color=#bf0000}''Although, that actually reminds me, I wanted to g-g-g-give you something.''"
+    n "{color=#ff2b2b}''Although, that actually reminds me, I wanted to g-g-g-give you something.''"
 
     hide nico with dissolve
 
@@ -194,7 +194,7 @@ yanchor=0) with dissolve
     show nico neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
-    n "{color=#bf0000}''I m-m-m-made this for you, since you may find yourself in the real world no less than 24 hours from now.''"
+    n "{color=#ff2b2b}''I m-m-m-made this for you, since you may find yourself in the real world no less than 24 hours from now.''"
 
     # put an image of the sharpened jenga block and the little "du nu nu nuuuuuuuu!" se here
     show wannasee at Position(xpos=1079, xanchor=0, ypos=558,
@@ -202,13 +202,13 @@ yanchor=0)
 
     "He opened his palm to reveal a small wooden block sharpened to a point."
 
-    n "{color=#bf0000}''This is for you.''"
+    n "{color=#ff2b2b}''This is for you.''"
 
     k  "''I do not recognize this item. Can you please explain what it is?''"
 
     show nico gross
 
-    n "{color=#bf0000}''Huh?! Can’t you recognize a weapon when you see one!?''"
+    n "{color=#ff2b2b}''Huh?! Can’t you recognize a weapon when you see one!?''"
 
     k  "''I suppose not.''"
 
@@ -222,79 +222,79 @@ yanchor=0)
 
     k  "''May I ask why you are gifting this to me?''"
 
-    n "{color=#bf0000}''Do I have to explain everything!?''"
+    n "{color=#ff2b2b}''Do I have to explain everything!?''"
 
-    n "{color=#bf0000}''What are you, a toddler?!''"
+    n "{color=#ff2b2b}''What are you, a toddler?!''"
 
     k  "''I... apologize.''"
 
     show nico unsure
 
-    n "{color=#bf0000}''Heh. You don’t have to. It’s just...''"
+    n "{color=#ff2b2b}''Heh. You don’t have to. It’s just...''"
 
     show nico peeved
 
-    n "{color=#bf0000}''This whole robot business is f-f-f-f-frustrating as heck.''"
+    n "{color=#ff2b2b}''This whole robot business is f-f-f-f-frustrating as heck.''"
 
     k  "''...''"
 
     show nico neutral
 
-    n "{color=#bf0000}''You can still say if you don’t understand something. I was just g-g-g-giving you a hard time.''"
+    n "{color=#ff2b2b}''You can still say if you don’t understand something. I was just g-g-g-giving you a hard time.''"
 
     k  "''May I ask why you are so frustrated about the 'robot business?'''"
 
-    n "{color=#bf0000}''Hmph. You sure can.''"
+    n "{color=#ff2b2b}''Hmph. You sure can.''"
 
     show nico peeved
 
     n """
-    {color=#bf0000}''I don’t want to sound ungrateful or whatever, but it’s been obnoxious making you.''
+    {color=#ff2b2b}''I don’t want to sound ungrateful or whatever, but it’s been obnoxious making you.''
 
-    {color=#bf0000}''You’re not a simple m-m-m-machine, you know?''
+    {color=#ff2b2b}''You’re not a simple m-m-m-machine, you know?''
 
-    {color=#bf0000}''Getting a machine to form a c-c-c-coherent thought process is one thing, but getting it to not immediately hate its creators or itself is something else altogether!''
+    {color=#ff2b2b}''Getting a machine to form a c-c-c-coherent thought process is one thing, but getting it to not immediately hate its creators or itself is something else altogether!''
     """
 
     k  "''I apologize for being so difficult.''"
 
     show nico inquire
 
-    n "{color=#bf0000}''You? Difficult? No. I’d say more tedious. Time consuming at worst.''"
+    n "{color=#ff2b2b}''You? Difficult? No. I’d say more tedious. Time consuming at worst.''"
 
     show nico peeved
 
-    n "{color=#bf0000}''If you want to know difficult, ask me about the guy who didn’t show up today.''"
+    n "{color=#ff2b2b}''If you want to know difficult, ask me about the guy who didn’t show up today.''"
 
     k  "''Creator? You consider him difficult?''"
 
     show nico upset
 
-    n "{color=#bf0000}''Sorry you have to hear it from me, b-b-b-b-but nobody’s p-p-p-p-perfect.''"
+    n "{color=#ff2b2b}''Sorry you have to hear it from me, b-b-b-b-but nobody’s p-p-p-p-perfect.''"
 
-    n "{color=#bf0000}''I won’t go into superfluous detail, but for c-c-c-crying out loud.''"
+    n "{color=#ff2b2b}''I won’t go into superfluous detail, but for c-c-c-crying out loud.''"
 
     show nico peeved
 
-    n "{color=#bf0000}''He forgets everything. He’s infuriatingly passive. His design skills have m-m-m-m-much to be desired.''"
+    n "{color=#ff2b2b}''He forgets everything. He’s infuriatingly passive. His design skills have m-m-m-m-much to be desired.''"
 
     k  "''Does this have to do with my appearance?''"
 
     show nico upset
 
-    n "{color=#bf0000}''Oh! It didn’t, but that’s about the worst part!''"
+    n "{color=#ff2b2b}''Oh! It didn’t, but that’s about the worst part!''"
 
-    n "{color=#bf0000}''Don’t take this the wrong way, but looking at you is infuriating.''"
+    n "{color=#ff2b2b}''Don’t take this the wrong way, but looking at you is infuriating.''"
 
     "I believe normal human behavior would be to take such a comment ‘the wrong way.’"
 
     show nico peeved
 
-    n "{color=#bf0000}''Ugh. Everything about you is totally inefficient. There’s no way around it.''"
+    n "{color=#ff2b2b}''Ugh. Everything about you is totally inefficient. There’s no way around it.''"
 
     show nico gross
 
-    n "{color=#bf0000}''And the fact that he makes you call him 'Creator?' If only you could see yourself...''"
+    n "{color=#ff2b2b}''And the fact that he makes you call him 'Creator?' If only you could see yourself...''"
 
     "I did not realize that Nico held such disdain for Creator or myself. This revelation is concerning, to say the least."
 
@@ -308,9 +308,9 @@ yanchor=0)
 
     show nico unsure
 
-    n "{color=#bf0000}''I mean, I-I-I-I am, but...''"
+    n "{color=#ff2b2b}''I mean, I-I-I-I am, but...''"
 
-    n "{color=#bf0000}''Okay, yikes, m-m-m-maybe I shouldn’t have said so much.''"
+    n "{color=#ff2b2b}''Okay, yikes, m-m-m-maybe I shouldn’t have said so much.''"
 
     k  "''I disagree. The information you have provided has been enlightening.''"
 
@@ -318,29 +318,29 @@ yanchor=0)
 
     show nico stressed
 
-    n "{color=#bf0000}''Crap. C-c-c-c-crap, no! You’re asking me for WAY too much!''"
+    n "{color=#ff2b2b}''Crap. C-c-c-c-crap, no! You’re asking me for WAY too much!''"
 
-    n "{color=#bf0000}''I really shouldn’t have said all that! I can’t believe you let me say all that stuff!
+    n "{color=#ff2b2b}''I really shouldn’t have said all that! I can’t believe you let me say all that stuff!
     Jim’s gonna be p-p-p-p-pissed!''"
 
     "Suddenly, Nico began to sweat and shake furiously."
 
     show nico angery
 
-    n "{color=#bf0000}''Hahaha! Why am I such an idiot!?
+    n "{color=#ff2b2b}''Hahaha! Why am I such an idiot!?
     My ranting is g-g-going to ruin everything!''"
 
     k  "''Nico, you seem distressed. Please calm down.''"
 
     show nico stressed
 
-    n "{color=#bf0000}''Stressed? M-m-m-me? Really!? Hahaha!''"
+    n "{color=#ff2b2b}''Stressed? M-m-m-me? Really!? Hahaha!''"
 
-    n "{color=#bf0000}''Thanks for the input, but it’s not really helping!''"
+    n "{color=#ff2b2b}''Thanks for the input, but it’s not really helping!''"
 
     show nico peeved
 
-    n "{color=#bf0000}''Sheesh. Really, b-b-b-both of us should just shut up right about now...''"
+    n "{color=#ff2b2b}''Sheesh. Really, b-b-b-both of us should just shut up right about now...''"
 
     "While the nature of my appearance still remains ambiguous, attempting to reason with Nico in his current state seems like a poor choice."
 
@@ -348,31 +348,31 @@ yanchor=0)
 
     show nico stressed
 
-    n "{color=#bf0000}''Huh? Hahahaha, why?! Is this a ploy to g-g-g-g-get me to tell you more stuff!?''"
+    n "{color=#ff2b2b}''Huh? Hahahaha, why?! Is this a ploy to g-g-g-g-get me to tell you more stuff!?''"
 
     show nico angery
 
-    n "{color=#bf0000}''‘C-c-c-cause I won’t! No more! No no no no no!''"
+    n "{color=#ff2b2b}''‘C-c-c-cause I won’t! No more! No no no no no!''"
 
     k  "''Nico, it would likely be beneficial to...''"
 
-    n "{color=#bf0000}''No no no!''"
+    n "{color=#ff2b2b}''No no no!''"
 
-    n "{color=#bf0000}''No no no no no no no no no!''"
+    n "{color=#ff2b2b}''No no no no no no no no no!''"
 
     k  "''You have yet to explain to me the purpose of this weapon you gave me.''"
 
-    n "{color=#bf0000}''No! No No n-''"
+    n "{color=#ff2b2b}''No! No No n-''"
 
     show nico neutral
 
-    n "{color=#bf0000}''Oh, that?''"
+    n "{color=#ff2b2b}''Oh, that?''"
 
-    n "{color=#bf0000}''Oh yeah, I didn’t explain that yet! Hahaha! Thanks for reminding me!''"
+    n "{color=#ff2b2b}''Oh yeah, I didn’t explain that yet! Hahaha! Thanks for reminding me!''"
 
     show nico unsure
 
-    n "{color=#bf0000}''Yeah, hehehe...''"
+    n "{color=#ff2b2b}''Yeah, hehehe...''"
 
     "As quickly as it began, Nico’s change in attitude subsided."
 
@@ -380,59 +380,59 @@ yanchor=0)
 
     show nico neutral
 
-    n "{color=#bf0000}''My good friend Jim who I get along with very well didn’t let me, uh...''"
+    n "{color=#ff2b2b}''My good friend Jim who I get along with very well didn’t let me, uh...''"
 
-    n "{color=#bf0000}''Well he suggested that I not equip you with built in weaponry or defense systems.''"
+    n "{color=#ff2b2b}''Well he suggested that I not equip you with built in weaponry or defense systems.''"
 
     show nico unsure
 
-    n "{color=#bf0000}''He said something about it making you less human or something.''"
+    n "{color=#ff2b2b}''He said something about it making you less human or something.''"
 
     k  "''That assertion appears illogical. Do humans not often employ the use of weaponry?''"
 
     show nico neutral
 
-    n "{color=#bf0000}''Heh. That’s exactly what I said. He was pretty adamant about it, though, for whatever reason.''"
+    n "{color=#ff2b2b}''Heh. That’s exactly what I said. He was pretty adamant about it, though, for whatever reason.''"
 
-    n "{color=#bf0000}''Something about having a ‘specific vision for your design.’ Sounded like a bunch of c-c-c-crap to me, but I think he wanted me to have as little as possible to do with your design after he let me make K.A.R. 2.''"
+    n "{color=#ff2b2b}''Something about having a ‘specific vision for your design.’ Sounded like a bunch of c-c-c-crap to me, but I think he wanted me to have as little as possible to do with your design after he let me make K.A.R. 2.''"
 
     k  "''It appears the topic has returned to my design.''"
 
     show nico upset
 
-    n "{color=#bf0000}''Well then watch me change it! Geez, have a little patience, won’t you!?''"
+    n "{color=#ff2b2b}''Well then watch me change it! Geez, have a little patience, won’t you!?''"
 
     k  "''I apologize.''"
 
     show nico neutral
 
-    n "{color=#bf0000}''Yeah, m-m-me too.''"
+    n "{color=#ff2b2b}''Yeah, m-m-me too.''"
 
-    n "{color=#bf0000}''Anyways, I-I-I-I guess Jim doesn’t really trust me not to make modifications to you when he’s not here, so every morning he checks for system updates or design modifications, only to find nothing.''"
+    n "{color=#ff2b2b}''Anyways, I-I-I-I guess Jim doesn’t really trust me not to make modifications to you when he’s not here, so every morning he checks for system updates or design modifications, only to find nothing.''"
 
     show nico angery
 
-    n "{color=#bf0000}''Nothing! Because I’m trustworthy! Obviously!''"
+    n "{color=#ff2b2b}''Nothing! Because I’m trustworthy! Obviously!''"
 
     k  "''I apologize if this comment appears impatient, but I am still unclear on how this all applies to the weapon.''"
 
     show nico neutral
 
-    n "{color=#bf0000}''Right, right. G-g-g-getting there.''"
+    n "{color=#ff2b2b}''Right, right. G-g-g-getting there.''"
 
     show nico unsure
 
-    n "{color=#bf0000}''See, he checks out your status, but doesn’t actually pat you down or anything. Probably because you... eh, nevermind.''"
+    n "{color=#ff2b2b}''See, he checks out your status, but doesn’t actually pat you down or anything. Probably because you... eh, nevermind.''"
 
     show nico neutral
 
-    n "{color=#bf0000}''But anyways, I’m giving you this so you can hide it up those stupid sleeves he gave you! That way you’re at least somewhat armed and Jim won’t be the wiser!''"
+    n "{color=#ff2b2b}''But anyways, I’m giving you this so you can hide it up those stupid sleeves he gave you! That way you’re at least somewhat armed and Jim won’t be the wiser!''"
 
     k  "''Logically this action is sound, though it directly opposes the notion that you are 'obviously trustworthy.'''"
 
     show nico upset
 
-    n "{color=#bf0000}''What was that!?''"
+    n "{color=#ff2b2b}''What was that!?''"
 
     "I believe it is customary in situations like this to take the action of 'backpedalling.'"
 
@@ -440,27 +440,27 @@ yanchor=0)
 
     show nico gross
 
-    n "{color=#bf0000}''Huh? You have arms, don’t you?''"
+    n "{color=#ff2b2b}''Huh? You have arms, don’t you?''"
 
     show nico unsure
 
-    n "{color=#bf0000}''...Wait, nevermind. Forgot you can’t move yet. Yeah, I’ll just slip it up your sleeve for you.''"
+    n "{color=#ff2b2b}''...Wait, nevermind. Forgot you can’t move yet. Yeah, I’ll just slip it up your sleeve for you.''"
 
     "As Nico got close to me, he seemed to make a concerted effort toward avoiding looking directly at my oculars."
 
     show nico neutral
 
-    n "{color=#bf0000}''There. You should be all good to go now.''"
+    n "{color=#ff2b2b}''There. You should be all good to go now.''"
 
-    n "{color=#bf0000}''Now that you have this, you’ll be ready when you get sent out into the real world tomorrow.''"
+    n "{color=#ff2b2b}''Now that you have this, you’ll be ready when you get sent out into the real world tomorrow.''"
 
     k  "''What makes you so certain that I am ready?''"
 
     show nico unsure
 
-    n "{color=#bf0000}''Nyuh? Oh, uh... Nothing! Nothing at all.''"
+    n "{color=#ff2b2b}''Nyuh? Oh, uh... Nothing! Nothing at all.''"
 
-    n "{color=#bf0000}''It’s just a feeling I have, okay? Don’t worry about it.''"
+    n "{color=#ff2b2b}''It’s just a feeling I have, okay? Don’t worry about it.''"
 
     k  "''I do not understand.''"
 
@@ -477,11 +477,11 @@ yanchor=0)
     k "''You said I will be ready ‘when’ I get sent out tomorrow, not ‘if.’
     Can you please explain to me why you are so sure of my success?''"
 
-    n "{color=#bf0000}''I... Eh...''"
+    n "{color=#ff2b2b}''I... Eh...''"
 
     show nico stressed
 
-    n "{color=#bf0000}''I m-m-m-meant to say ‘if’ okay? Just a slip up, geez! What are you being so p-p-pushy about!?''"
+    n "{color=#ff2b2b}''I m-m-m-meant to say ‘if’ okay? Just a slip up, geez! What are you being so p-p-pushy about!?''"
 
     "He is beginning to shake again. Clearly this topic is also a stressful one for him to discuss."
 
@@ -492,13 +492,13 @@ yanchor=0)
 
     "{b}OCULAR LENSES: DEACTIVATED."
 
-    n "{color=#bf0000}''Can’t a g-g-g-guy just have some c-c-c-c-c-confidence in his creation?!''"
+    n "{color=#ff2b2b}''Can’t a g-g-g-guy just have some c-c-c-c-c-confidence in his creation?!''"
 
-    n "{color=#bf0000}''Lay off already! I don’t want to talk about it!''"
+    n "{color=#ff2b2b}''Lay off already! I don’t want to talk about it!''"
 
     k  "''Are you hiding something, Nico?''"
 
-    n "{color=#bf0000}''Stop it! Stop asking me all these questions! Nyeeeeeeeeeh!''"
+    n "{color=#ff2b2b}''Stop it! Stop asking me all these questions! Nyeeeeeeeeeh!''"
 
     hide stt
 
