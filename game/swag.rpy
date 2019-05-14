@@ -63,8 +63,8 @@ yanchor=0)
     show jim neutral at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show erika angery behind ocular at Position(xpos=400, xanchor=0,
-    ypos=110, yanchor=0) with dissolve
+    show erika angery behind ocular at Position(xpos=300, xanchor=0,
+    ypos=84, yanchor=0) with dissolve
 
     j "{color=#f388b8}''Um... Hi, Erika. Is there something wrong?''"
 
@@ -151,7 +151,7 @@ yanchor=0)
 
     hide jim with dissolve
 
-    show erika angery at Position(xpos=537, xanchor=0, ypos=110,
+    show erika angery at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with ease
 
     "Calmly, though clearly disgruntled, Creator left the room."
@@ -521,10 +521,10 @@ yanchor=0)
 
     "At that moment, Creator reentered the room, holding in his arms a small stack of folders and loose papers, looking both exhausted and exasperated."
 
-    show erika inquire behind ocular at Position(xpos=400, xanchor=0,
-ypos=110, yanchor=0) with ease
+    show erika inquire behind ocular at Position(xpos=300, xanchor=0,
+ypos=84, yanchor=0) with ease
 
-    show jim angery at Position(xpos=673, xanchor=0, ypos=115,
+    show jim angery behind ocular at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
     j "{color=#f388b8}''Whew... Alright! Here they are, all of them! All the letters, all the signatures, everything!''"

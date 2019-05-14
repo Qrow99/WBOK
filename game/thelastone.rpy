@@ -288,6 +288,20 @@ yanchor=0) with dissolve
 label R1:
     k "''Rick, would you consider me to be your friend?''"
 
+    show rick neutral
+
+    r "''Customarily, I try not to connect emotionally with my clients.''"
+
+    k "''I see.''"
+
+    show rick smug
+
+    r "''However, as I’ve said before, you are no customary client.''"
+
+    k "''I suppose not.''"
+
+    r "''Considering how much you’ve done for me and my work, I would be remiss to not at least see you in a positive light.''"
+
 
     jump FRICK
 
@@ -481,7 +495,191 @@ yanchor=0) with dissolve
         "Can you free me?":
             jump E3
 
-label R1:
+label E1:
+    k "''Erika, do you truly believe I can fit into society as I am now?''"
+    k "''I am unsure if I am prepared. I would like to know your thoughts.''"
+
+    jump FECK
+
+
+label E2:
+    k "''When I leave this place, what can I do with a body?''"
+
+    jump FECK
+
+
+label E3:
+    k "''These binds along my body, they prevent me from moving.''"
+
+    jump FECK
+
+
+label FECK:
+    hide erika with dissolve
+
+    "Shortly after Erika’s departure, Creator returned with the next section of the test."
+
+    show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+yanchor=0) with dissolve
+
+    j "''Huh, that’s funny. I thought I heard Erika come in here.''"
+
+    k "''She departed only moments ago.''"
+
+    show jim happy
+
+    j "''Well, sounds like you’re getting to see a whole bunch of friends today, huh?''"
+
+    k "''It seems that way.''"
+
+    j "''Well, friends or not, we’ve still got a test to take. Hope you’re ready for the final part!''"
+
+    show chapter end at center with fade
+
+    show jim neutral
+
+    "{b}..."
+
+    hide chapter end with fade
+
+    show jim happy
+
+    j "''Alright! Looks like we’re all finished.''"
+
+    "Creator looked down at his clipboard once again and let out a mild sigh."
+
+    show jim embarassed
+
+    j "''I guess all that's left for me to do is grade it, so...''"
+    j "''I'll be back in a minute.''"
+
+    hide jim with dissolve
+
+    "For what appeared to be the final time, Creator left the room."
+    "This time, little time was left to let a silence set in before it was immediately broken by the sound of erratic footsteps."
+
+    show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+yanchor=0) with dissolve
+
+    n "''...''"
+
+    k "''Hello, Nico.''"
+
+    n "''...Hi.''"
+
+    k "''I do not believe we finished our conversation yesterday.''"
+
+    show nico upset
+
+    n "''Really? Well, I-I-I-I think we did.''"
+
+    k "''I see.''"
+    k "''But if that is the case, then why are you here?''"
+
+    show nico neutral
+
+    n "''Nothing special. Just some last minute m-m-maintenance checks.''"
+
+    k "''I understand.''"
+
+    show nico unsure
+
+    n "''...''"
+    n "''Hey, K.A.R. 3, do you still have that thing I gave you yesterday?''"
+
+    k "''You mean the weapon?''"
+
+    show nico peeved
+
+    n "''Hey, keep it down, would you? The walls here aren't that thick, you know?''"
+
+    "I was not actually aware of the walls’ thickness, though I am inclined to believe the question was rhetorical."
+
+    k "''I apologize.''"
+
+    show nico neutral
+
+    n "''It's fine.''"
+    n "''Just want to, you know, m-m-m-make sure you still g-g-got it.''"
+
+    k "''For when I leave today?''"
+
+    show nico upset
+
+    n "''If you leave today.''"
+
+    k "''...''"
+
+    show nico unsure
+
+    n "''Hey, K.A.R. 3...''"
+    n "''I-I-I-I, uh, want to apologize for what I said yesterday. All of it. You weren’t supposed to hear any of that.''"
+
+    k "''I do not believe apology is necessary. The information you provided yesterday was enlightening.''"
+
+    show nico peeved
+
+    n "''Hmph. Yeah. That’s k-k-k-kind of why I’m apologizing.''"
+
+    k "''...''"
+
+    show nico inquire
+
+    n "''It's okay if you don't understand.''"
+
+    k "''I do not believe I need to.''"
+
+    show nico neutral
+
+    n "''Tch. Maybe you are ready to leave, then.''"
+    n "''...''"
+    n "''Anyways, m-m-maintenance checks out. See you, K.A.R. 3.''"
+
+    k "''Nico, please wait.''"
+
+    show nico inquire
+
+    n "''Huh? What?''"
+
+    "I didn’t wait for the strange feeling to kick in this time."
+    "Whether or not it should occur, there’s no doubt that Nico still has information that could prove useful. And seeing as I may be only moments from passing my test, logically I have very little to lose."
+
+    menu:
+        k "''Nico, please...''"
+
+        "Are you and Jim really friends?":
+            jump N1
+
+        "What do you really think of my appearance?":
+            jump N2
+
+        "Is the weapon sharp enough to break my binds?":
+            jump N3
+
+label N1:
+    k "''Are you and Creator really friends?''"
+
+    jump NYEH
+
+
+label N2:
+    k "''What do you really think about my appearance?''"
+
+    jump NYEH
+
+
+label N3:
+    k "''The item you gave me.''"
+
+    n "''What about it?''"
+
+    k "''Is it currently sharp enough to break the straps around my limbs?''"
+
+    jump NYEH
+
+
+label NYEH
+    hide nico with dissolve
 
 
 

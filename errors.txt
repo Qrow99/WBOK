@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/thelastone.rpy", line 351: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        j "''Okay! That does it for part two! You're really 
+The label R1 is defined twice, at
+  File "game/thelastone.rpy", line 288 and
+  File "game/thelastone.rpy", line 484.
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Sat May 11 20:37:24 2019
+Mon May 13 16:01:21 2019
