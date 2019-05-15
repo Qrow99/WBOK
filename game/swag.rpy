@@ -26,6 +26,7 @@ yanchor=0)
 
     "{b}SPEECH TO TEXT: ENABLED."
 
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
     show ocular crt
     with dissolve
 
@@ -650,6 +651,7 @@ yanchor=0)
     j "{color=#f388b8}''Hm? Oh, sorry. I was just thinking out loud.
     You can ignore that.''"
 
+    stop music fadeout 2.0
     show ocular offline with dissolve
 
     hide jim

@@ -24,6 +24,8 @@ label start:
 
     scene bg thing
 
+    define dissolve1 = Dissolve(5.0, alpha=False, time_warp=None)
+
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
@@ -188,6 +190,7 @@ yanchor=0)
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
 
+
     "{b}SPEECH TO TEXT: ENABLED."
 
     "{b}OCULAR LENSES: DISCONNECTED."
@@ -209,8 +212,10 @@ yanchor=0)
 
     "{b}OCULAR LENSES: CONNECTED."
 
+    play music "WBoK_music1_v3.ogg" loop fadein 10.0
+
     show ocular crt
-    with dissolve
+    with dissolve1
 
     "{b}OCULAR LENSES: ACTIVE."
 
@@ -746,6 +751,7 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''Don't want to make the powering down process too jarring, right?''"
 
+    stop music fadeout 2.0
     show ocular offline with dissolve
 
     "{b}OCULAR LENSES: DEACTIVATED."
