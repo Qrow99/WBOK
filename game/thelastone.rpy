@@ -27,6 +27,7 @@ yanchor=0)
 
     "{b}SPEECH TO TEXT: ENABLED."
 
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
     show ocular crt
     with dissolve
 
@@ -639,11 +640,131 @@ label E1:
 label E2:
     k "''When I leave this place, what can I do with a body?''"
 
+    show erika inquire
+
+    e "''What do you mean?''"
+
+    k "''The prospect of moving around with full freedom is equally exciting and intimidating. If I am to gain full bodily freedom, I do not even know what I would do.''"
+
+    show erika neutral
+
+    e "''Well...  I don’t really know what kind of stuff you like to do for fun, but I can always give some suggestions!''"
+
+    k "''I would appreciate that.''"
+
+    e "''What to do with a body, huh?''"
+
+    show erika happy ex
+
+    e "''Man, where do I even start? If you've been stuck in here for the whole week, well, that means you literally know nothing, so...''"
+
+    k "''I apologize for my ignorance.''"
+
+    show erika happy
+
+    e "''Apologize? You kidding? This is great! I feel like I'm taking a kid to a candy shop for the first time!''"
+
+    show erika happy ex
+
+    e "''Man, this is exciting! I feel like sports are a good start...''"
+    e "''You could try volleyball, or basketball, or soccer, or softball...''"
+    e "''But there's not just ball sports! You could run, or act, or dance! You look like you could be a dancer!''"
+    e "''What else is there...!?''"
+
+    "As she listed off various activities, her words became more rapid and less structured."
+    "She spoke as intensely as she had when I first met her, but this time without a hint of malice or distaste in her voice."
+
+    show erika happy
+
+    e "''And that's just the basic stuff!''"
+
+    "I prepared to compliment Erika on her ability to rapidly list activities, but my endeavor was interrupted by a voice coming from the next room over."
+
+    j "''Karen? Is everything okay in there? Is someone in there with you?''"
+
+    show erika neutral
+
+    e "''Well, that sounds like my cue to leave.''"
+
+    show erika happy
+
+    e "''Hopefully the next time I see you, it won’t have to be in this gross stuffy laboratory.''"
+
+    k "''I hope so, as well.''"
+
+    show erika happy ex
+
+    e "''Well I'm glad to hear it!''"
+    e "''When you get out of here, make sure to call me, okay? I’ll show you all sorts of fun stuff we can do!''"
+
+    k "''I will look forward to it.''"
+
+    show erika happy
+
+    e "''Same here. See you around, Karen!''"
+
+    k "''Goodbye, Erika.''"
+
+
     jump FECK
 
 
 label E3:
     k "''These binds along my body, they prevent me from moving.''"
+
+    show erika inquire
+
+    e "''Yeah...''"
+
+    k "''Creator activated my nervous system, yet he still does not allow me to move.''"
+
+    e "''What are you asking me to do?''"
+
+    k "''I want to move around freely, outside of this room, yet I cannot do so by myself.''"
+    k "''Is it possible for you to break the straps that are binding me?''"
+
+    show erika surprise
+
+    e "''You want me to help you break free, even though Jim explicitly told you not to move?''"
+
+    k "''That is correct.''"
+
+    show erika neutral
+
+    e "''...''"
+
+    "For a moment she stood silently, eyes closed."
+
+    show erika happy ex
+
+    "She then proceeded to reveal a large pocket knife from inside her jacket."
+
+    e "''Why didn't you ask me sooner?''"
+
+    " Before I could make any further comment, Erika began to work away at the straps with her knife."
+    "She easily cut through one, but before she could put more than a cut in another, a voice faintly made its way into the room."
+
+    j "''Karen? Is everything okay in there? What’s that noise?''"
+
+    show erika annoyed
+
+    e "''Crap. Sounds like twink boy's coming back.''"
+
+    show erika neutral
+
+    e "''Guess the rest is up to you know, Karen. Sorry I couldn’t get all of them...''"
+
+    k "''It is okay. Thank you for helping me.''"
+
+    show erika happy ex
+
+    e "''What are friends for?''"
+
+    show erika happy
+
+    e "''Anyways, if I didn’t want to see Jim before, I sure as hell don’t want to see him now. So, see ya!''"
+
+    k "''Goodbye, Erika.''"
 
     jump FECK
 
