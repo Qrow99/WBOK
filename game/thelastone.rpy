@@ -914,6 +914,76 @@ yanchor=0) with dissolve
 label N1:
     k "''Are you and Creator really friends?''"
 
+    show nico gross
+
+    n "''What? Of c-c-course! Why do you...''"
+
+    show nico unsure
+
+    "He trailed off and looked away sheepishly, as if he stopping himself from saying something."
+
+    k "''I ask because of what you said yesterday.''"
+
+    show nico angery
+
+    n "''Ugh, can you just shut up about yesterday!?''"
+    n "''For crying out loud, I told you to forget it!''"
+
+    k "''Nico, please. What you have said about Creator, and about yourself, it is contradictory.''"
+    k "''How you feel… I cannot begin to understand.''"
+
+    show nico upset
+
+    n "''You don’t understand, huh?''"
+
+    k "''I was hoping that perhaps you could help me to.''"
+
+    show nico unsure
+
+    "Nico made a face as if he were going to retort, but it quickly transformed into a face of uncertainty, and then back into his usual scowl."
+
+    show nico upset
+
+    "He then proceeded to grasp one of my binds and, in a singular motion, tore it off with his bare hands."
+
+    k "''Nico, I do not understand, why did you...''"
+
+    n "''Shut up. Just listen to me for one second, okay? Just one second.''"
+    n "''Here’s what I want you to do: I want you to get out of here and figure
+    it out for yourself. B-b-b-because you’re asking me things I c-c-can’t even
+    begin to explain.''"
+
+    k "''Nico, I...''"
+
+    n "''I'm not done yet.''"
+
+    show nico peeved
+
+    n "''I-I-I-I get it, okay? I get that you want to know everything, but that just can’t happen. Not in here, at least.''"
+
+    show nico upset
+
+    n "''That’s why you’re leaving. Today. Right now. Do you understand?''"
+
+    k "''Nico, what are you...''"
+
+    n "''Do you understand?''"
+
+    k "''...''"
+    k "''Yes, I understand.''"
+
+    show nico unsure
+
+    n "''Good. Alright. Okay.''"
+
+    show nico neutral
+
+    n "''I-I-I-I need to, uh, I should probably leave. B-b-b-before Jim gets back.''"
+    n "''Goodbye, K.A.R. 3.''"
+
+    k "''Goodbye, Nico.''"
+
+
     jump NYEH
 
 
@@ -926,9 +996,65 @@ label N2:
 label N3:
     k "''The item you gave me.''"
 
+    show nico inquire
+
     n "''What about it?''"
 
     k "''Is it currently sharp enough to break the straps around my limbs?''"
+
+    n "''Break the straps...?''"
+
+    show nico upset
+
+    n "''Why? Are you trying to escape?''"
+
+    "I’m not entirely sure how to answer this question."
+    "Truthfully, I am not sure what has compelled me to even consider this option
+    so many times within the past hour. The thought never occurred to me throughout
+    the rest of the week, and yet today..."
+
+    k "''I have been planning an escape, under the event that I may fail today’s test.''"
+
+    show nico inquire
+
+    n "''What the... Why?''"
+    n "''What do you think Jim’s going to do to you if you fail!? K-k-k-kill you!?''"
+
+    k "''Deactivation is customary procedure for defective machinery.''"
+    k "''The possibility most certainly exists.''"
+
+    show nico unsure
+
+    n "''Well... jeez...''"
+
+    "As he exhaled his words and his breaths became shallow, Nico’s body began to vibrate and twitch."
+
+    show nico neutral
+
+    "Yet, unlike yesterday, he seemed unfazed by this change in stability."
+    "Additionally, for the first time since our first meeting, Nico looked directly into my oculars as he spoke."
+
+    n "''Listen, I know we’ve had some, uh, disagreements for a c-c-couple days now.''"
+    n "''I-I-I also know that I haven’t been totally honest with you, ever, but just listen to me now.''"
+
+    show nico upset
+
+    n "''I’m not going to let you die. Or deactivate. Or whatever. Okay?''"
+    n "''That’s the honest truth. You know, for once.''"
+
+    k "''Nico, why are you saying all this?''"
+
+    show nico peeved
+
+    n "''I don’t really know, alright? I-I-I-I don’t really know anything.''"
+    n "''I just… I-I-I-I should probably leave. B-b-b-before Jim gets back.''"
+
+    show nico neutral
+
+    n "''Goodbye, Karen.''"
+
+    k "''Nico... Goodbye.''"
+
 
     jump NYEH
 
