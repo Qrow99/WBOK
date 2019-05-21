@@ -930,7 +930,7 @@ label N1:
     n "''For crying out loud, I told you to forget it!''"
 
     k "''Nico, please. What you have said about Creator, and about yourself, it is contradictory.''"
-    k "''How you feel… I cannot begin to understand.''"
+    k "''How you feel... I cannot begin to understand.''"
 
     show nico upset
 
@@ -989,6 +989,80 @@ label N1:
 
 label N2:
     k "''What do you really think about my appearance?''"
+
+    show nico gross
+
+    n "''This c-c-crap again? Look, I told you...''"
+
+    show nico unsure
+
+    "He trailed off and looked away sheepishly, as if he stopping himself from saying something."
+
+    show nico inquire
+
+    n "''Why do you care so much? What do you want from me!?''"
+
+    k "''You continue to avoid the question. This sort of behavior is suspicious.''"
+
+    show nico unsure
+
+    n "''Tch. Guess it is, huh?''"
+
+    show nico upset
+
+    n "''Well look here, alright, there’s a perfectly good explanation for why I’ve been avoiding said question, and...''"
+
+    show nico unsure
+
+    "Nico’s eyes darted away from me and toward the floor."
+
+    show nico stressed
+
+    n "''There’s a good reason, okay?! I swear! So just drop it!''"
+
+    k "''I do not care.''"
+
+    show nico gross
+
+    n "''You what!?''"
+
+    k "''I said I do not care about the reason.''"
+    k "''Your behavior has gone far past suspicious, and such actions only further strengthen my curiosity.''"
+
+    show nico unsure
+
+    n "''So you're really that curious, huh?''"
+    n "''...''"
+
+    show nico
+
+    n "''Alright, fine! I submit! Just stop asking me questions, okay? No more after this!''"
+
+    k "''Fine. No more questions.''"
+    k "''Just please, Nico. What is my appearance?''"
+
+    n "''Okay... Alright. Fine.''"
+
+    show nico unsure
+
+    n "''So, uh... I guess...''"
+
+    "With shallow breaths and darting eyes, Nico struggled to speak."
+
+    n "''I-I-I-I...''"
+
+    show nico stressed
+
+    n "''I think you look c-c-c-cute, okay!? There! I-I-I-I said it! Is that what you wanted?''"
+
+    show nico angery
+
+    n "''Well there it is! Last question, answered! We’re done here!''"
+    n "''Now just leave me alone!''"
+
+    "Even before he could fully finish his thought, Nico ran out the door, his head buried in his hands."
+
+
 
     jump NYEH
 
@@ -1061,6 +1135,8 @@ label N3:
 
 label NYEH:
     hide nico with dissolve
+
+    k "''...''"
 
 
 
