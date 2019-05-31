@@ -3,6 +3,10 @@
 
 label chapter5:
 
+    $ E1 = 0
+    $ E2 = 0
+    $ E3 = 0
+
     hide chapter end with fade
 
     "{b}BOOTING..."
@@ -35,14 +39,14 @@ yanchor=0)
 
     show jim happy
 
-    j "{color=#f388b8}''Good afternoon, Karen.''"
+    j "{color=#f388b8}{color=#f388b8}''Good afternoon, Karen.''"
 
     k "''Creator, you're here.''"
 
     show jim embarassed
 
-    j "{color=#f388b8}''I am, yeah...''"
-    j "{color=#f388b8}''So I suppose an apology is in order, huh? I really should've told
+    j "{color=#f388b8}{color=#f388b8}''I am, yeah...''"
+    j "{color=#f388b8}{color=#f388b8}''So I suppose an apology is in order, huh? I really should've told
     you that I couldn't make it to the lab yesterday.''"
 
     k "''I was unsure of your whereabouts. I was alone.''"
@@ -51,12 +55,12 @@ yanchor=0)
 
     show jim neutral
 
-    j "''Yeah, in retrospect I should've asked Nico to get here before you woke up...''"
+    j "{color=#f388b8}''Yeah, in retrospect I should've asked Nico to get here before you woke up...''"
 
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
-    j "''I'm sorry if I made you worry.''"
+    j "{color=#f388b8}''I'm sorry if I made you worry.''"
 
     hide searching
 
@@ -66,20 +70,20 @@ yanchor=0)
 
     show jim embarassed
 
-    j "''Aw man... At least that means you're still learning well, I guess.''"
+    j "{color=#f388b8}''Aw man... At least that means you're still learning well, I guess.''"
 
     show jim happy
 
-    j "''Regardless, there's something I want you to see, or rather feel?''"
+    j "{color=#f388b8}''Regardless, there's something I want you to see, or rather feel?''"
 
     k "''I do not understand what you mean.''"
 
-    j "''Well you will!''"
+    j "{color=#f388b8}''Well you will!''"
 
     show jim neutral
 
-    j "''At least, you will if it works.''"
-    j "''I just have to activate some things and then...''"
+    j "{color=#f388b8}''At least, you will if it works.''"
+    j "{color=#f388b8}''I just have to activate some things and then...''"
 
     show ns online at Position(xpos=1095, xanchor=0, ypos=47,
  yanchor=0)
@@ -93,58 +97,58 @@ yanchor=0)
 
     show jim inquire
 
-    j "''So, how do you feel?''"
+    j "{color=#f388b8}''So, how do you feel?''"
 
     k "''Creator, I cannot move.''"
 
     show jim happy
 
-    j "''So you are feeling properly! That's good.''"
+    j "{color=#f388b8}''So you are feeling properly! That's good.''"
 
     k "''I can feel, but I cannot move. Why am I restrained?''"
 
     show jim neutral
 
-    j "''For your own safety, mostly.''"
+    j "{color=#f388b8}''For your own safety, mostly.''"
 
     show jim embarassed
 
-    j "''Also because your parts are expensive.''"
-    j "''Just because you can feel doesn’t mean you can walk; even something as adept at learning as you would still have the motor skills of an infant thirty seconds after finding out it has legs.''"
+    j "{color=#f388b8}''Also because your parts are expensive.''"
+    j "{color=#f388b8}''Just because you can feel doesn’t mean you can walk; even something as adept at learning as you would still have the motor skills of an infant thirty seconds after finding out it has legs.''"
 
     k "''May I be freed soon? I believe it would be difficult to complete my prime directive while immobile.''"
 
     show jim happy
 
-    j "''You make a good point, and I understand that you want to move around, but please remember that we have something even more important to do today!''"
+    j "{color=#f388b8}''You make a good point, and I understand that you want to move around, but please remember that we have something even more important to do today!''"
 
     "It is Friday. Amidst all this afternoon’s commotion, I had nearly forgotten that it was the day of my final exam."
     "Although, it is technically impossible for me to ‘forget’ information in the traditional sense."
 
-    j "''And hey, if you keep saying stuff like that, I have a feeling you'll do just fine.''"
+    j "{color=#f388b8}''And hey, if you keep saying stuff like that, I have a feeling you'll do just fine.''"
 
     k "''What do you mean?''"
 
-    j "''Like I said, you made a good point!''"
-    j "''Logical argumentation is a crucial aspect of communication, so it’s good that you have a grasp on it.''"
+    j "{color=#f388b8}''Like I said, you made a good point!''"
+    j "{color=#f388b8}''Logical argumentation is a crucial aspect of communication, so it’s good that you have a grasp on it.''"
 
     k "''Thank you.''"
 
-    j "''You're welcome.''"
-    j "''Manners are also crucial for communication so, hey, you get points there too.''"
+    j "{color=#f388b8}''You're welcome.''"
+    j "{color=#f388b8}''Manners are also crucial for communication so, hey, you get points there too.''"
 
     k "''I assume that that comment was a meant facetiously, and that these notions of preemptive ‘points’ are meant to be taken as jokes.''"
 
     show jim neutral
 
-    j "''They are, yes.''"
+    j "{color=#f388b8}''They are, yes.''"
 
     k "''I see. Ha ha ha ha.''"
 
     show jim embarassed
 
-    j "''Um, thanks.''"
-    j "''On that note, I'm going to go grab the first section of your test.''"
+    j "{color=#f388b8}''Um, thanks.''"
+    j "{color=#f388b8}''On that note, I'm going to go grab the first section of your test.''"
 
     hide jim with dissolve
 
@@ -153,29 +157,29 @@ yanchor=0)
     show jim happy behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
-    j "''Now why don't we get started?''"
-    j "''The faster we get done with this, the faster we you can walk on up and out of those bindings.''"
+    j "{color=#f388b8}''Now why don't we get started?''"
+    j "{color=#f388b8}''The faster we get done with this, the faster we you can walk on up and out of those bindings.''"
 
     k "''That is assuming I pass.''"
 
     show jim neutral
 
-    j "''...Yes.''"
+    j "{color=#f388b8}''...Yes.''"
 
     k "''Creator, I noticed that you referred to this as the first section of the test, does that mean there are multiple sections?''"
 
     show jim happy
 
-    j "''That's correct. There are three sections in total.''"
+    j "{color=#f388b8}''That's correct. There are three sections in total.''"
 
     show jim embarassed
 
-    j "''They were meant to relate to the lessons I had planned for Tuesday, Wednesday, and Thursday respectively, but... extraneous circumstances occurred.''"
+    j "{color=#f388b8}''They were meant to relate to the lessons I had planned for Tuesday, Wednesday, and Thursday respectively, but... extraneous circumstances occurred.''"
 
     show jim happy
 
-    j "''It’s nothing to worry about, though! I’m sure you’ll do just fine regardless!''"
-    j "''Anyways, let's get started!''"
+    j "{color=#f388b8}''It’s nothing to worry about, though! I’m sure you’ll do just fine regardless!''"
+    j "{color=#f388b8}''Anyways, let's get started!''"
 
     show chapter end at center with fade
 
@@ -187,25 +191,25 @@ yanchor=0) with dissolve
 
     show jim happy
 
-    j "''Alright1 That's the end of the first section, good job!''"
-    j "''Now, if you'll excuse me, I'm going to go grab the second part...''"
+    j "{color=#f388b8}''Alright1 That's the end of the first section, good job!''"
+    j "{color=#f388b8}''Now, if you'll excuse me, I'm going to go grab the second part...''"
 
     k "''Creator, why are you giving each section individually?''"
     k "''Would it not make more sense to have all the papers at once?''"
 
-    j "''That's a good question!''"
+    j "{color=#f388b8}''That's a good question!''"
 
     show jim neutral
 
-    j "''I could tell you that there’s an official, or at least organizational, reason for me splitting it up into three parts.''"
+    j "{color=#f388b8}''I could tell you that there’s an official, or at least organizational, reason for me splitting it up into three parts.''"
 
     show jim embarassed
 
-    j "''I could say that, but the truth is I just don’t want to carry all those papers together at once.''"
+    j "{color=#f388b8}''I could say that, but the truth is I just don’t want to carry all those papers together at once.''"
 
     show jim happy
 
-    j "''Be right back!''"
+    j "{color=#f388b8}''Be right back!''"
 
     hide jim with dissolve
 
@@ -231,7 +235,7 @@ yanchor=0) with dissolve
 
     k "''I am?''"
 
-    show rick neutral
+    show rick excited
 
     r "{color=#FC983B}''Undoubtedly! Views for the web page have skyrocketed in the past 72 hours!''"
 
@@ -263,6 +267,8 @@ yanchor=0) with dissolve
 
     k "''Rick, please wait.''"
 
+    show rick inquire
+
     r "{color=#FC983B}''Pardon?''"
 
     k "''I would like to ask you a question.''"
@@ -287,6 +293,7 @@ yanchor=0) with dissolve
             jump R3
 
 label R1:
+    $ E2 += 1
     k "''Rick, would you consider me to be your friend?''"
 
     show rick neutral
@@ -307,7 +314,7 @@ label R1:
 
     show rick inquire
 
-    r "{color=#FC983B}''Though now you've made me curious; would you consider me to be a friend?''"
+    r "{color=#FC983B}''Though now you've made me curious; would you consider me to be a friend of yours?''"
 
     k "''I believe that I would, yes.''"
 
@@ -323,6 +330,7 @@ label R1:
     jump FRICK
 
 label R2:
+    $ E1 += 1
     k "''Rick Morrison, I would like to shake your hand.''"
 
     show rick smug
@@ -366,6 +374,7 @@ label R2:
     jump FRICK
 
 label R3:
+    $ E3 += 1
     k "''Rick, can you break the straps binding my arms?''"
 
     show rick inquire
@@ -416,25 +425,25 @@ yanchor=0) with dissolve
 
     show jim embarassed
 
-    j "''Sorry to keep you waiting, I didn't realize how unorganized my papers were until just now...''"
-    j "''Anyways, I hope you didn't get too bored while I was gone.''"
+    j "{color=#f388b8}''Sorry to keep you waiting, I didn't realize how unorganized my papers were until just now...''"
+    j "{color=#f388b8}''Anyways, I hope you didn't get too bored while I was gone.''"
 
     k "''I was not bored. Rick Morrison stopped by.''"
 
     show jim inquire
 
-    j "''Really? Did he need something from me?''"
+    j "{color=#f388b8}''Really? Did he need something from me?''"
 
     k "''He did not. He said he only wanted to see me.''"
 
     show jim neutral
 
-    j "''I see...''"
+    j "{color=#f388b8}''I see...''"
 
     show jim happy
 
-    j "''Well that was rather nice of him, wasn't it?''"
-    j "''Anyways, we should probably be getting back to this test, huh? Time for part two!''"
+    j "{color=#f388b8}''Well that was rather nice of him, wasn't it?''"
+    j "{color=#f388b8}''Anyways, we should probably be getting back to this test, huh? Time for part two!''"
 
     show chapter end at center with fade
 
@@ -446,17 +455,17 @@ yanchor=0) with dissolve
 
     show jim happy
 
-    j "''Okay! That does it for part two! You're really cruising through these, huh?''"
+    j "{color=#f388b8}''Okay! That does it for part two! You're really cruising through these, huh?''"
 
     k "''Is completing this task quickly undesirable?''"
 
     show jim embarassed
 
-    j "''No, it was just an observation.''"
+    j "{color=#f388b8}''No, it was just an observation.''"
 
     show jim happy
 
-    j "''Anyways, you know the drill. Be right back!''"
+    j "{color=#f388b8}''Anyways, you know the drill. Be right back!''"
 
     hide jim with dissolve
 
@@ -466,56 +475,56 @@ yanchor=0) with dissolve
     show erika happy behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
 
-    e "''Hey Karen!''"
+    e "{color=#99ccff}''Hey Karen!''"
 
     k "''Hello, Erika. What brings you here today?''"
 
     # Hey here's a quick idea
     # Maybe if Karen fails the interaction with Rick, Erika instead says "what's up?"
-    # And Karen responds with something like "the ceiling" and they have an awkward laugh
+    # And Karen responds with something like "{color=#99ccff}the ceiling" and they have an awkward laugh
     # It's funny, but it also indicates that Karen doesn't fully understand the language
 
-    e "''Just wanted to check up on you and make sure everything was all good here.''"
+    e "{color=#99ccff}''Just wanted to check up on you and make sure everything was all good here.''"
 
     k "''I appreciate it.''"
 
     show erika happy ex
 
-    e "''Anytime!''"
+    e "{color=#99ccff}''Anytime!''"
 
     show erika happy
 
-    e "''So, has Jim got any special plans for you today? Couldn’t help but notice that he isn’t here.''"
+    e "{color=#99ccff}''So, has Jim got any special plans for you today? Couldn’t help but notice that he isn’t here.''"
 
     k "''Today, Creator is giving me an exam to determine if I am fit to enter society.''"
 
     show erika surprise
 
-    e "''Really? That's so cool! Is the test hard?''"
+    e "{color=#99ccff}''Really? That's so cool! Is the test hard?''"
 
     k "''I am unsure. The questions do not have explicit, definitive, or numerical answers.''"
     k "''Mostly, they consist of simply talking.''"
 
     show erika neutral
 
-    e "''Huh, that's pretty weird. Like a test from a speech class or something.''"
+    e "{color=#99ccff}''Huh, that's pretty weird. Like a test from a speech class or something.''"
 
     k "''I suppose so.''"
 
     show erika happy ex
 
-    e "''Well, good luck either way! I'm sure you'll do great!''"
+    e "{color=#99ccff}''Well, good luck either way! I'm sure you'll do great!''"
 
     k "''Thank you.''"
 
     show erika happy
 
-    e "''Yeah, no problem!''"
-    e "''...''"
+    e "{color=#99ccff}''Yeah, no problem!''"
+    e "{color=#99ccff}''...''"
 
     show erika neutral
 
-    e "''Hey, hope this doesn’t offend you, but I’m not really in the mood to talk to Jim today, so I think I’m going to head out before he gets back. See ya!''"
+    e "{color=#99ccff}''Hey, hope this doesn’t offend you, but I’m not really in the mood to talk to Jim today, so I think I’m going to head out before he gets back. See ya!''"
 
     "As Erika began to leave, I felt it again."
     "The mysterious feeling that compelled me to say something, it sprang up once again."
@@ -524,44 +533,44 @@ yanchor=0) with dissolve
 
     show erika inquire
 
-    e "''Hm? What is it?''"
+    e "{color=#99ccff}''Hm? What is it?''"
 
     k "''I just remembered. I did want to tell you something.''"
     k "''My nervous system has been activated. I can feel my limbs and body.''"
 
     show erika surprise
 
-    e "''Oh really? Well that's great!''"
+    e "{color=#99ccff}''Oh really? Well that's great!''"
 
     show erika happy ex
 
-    e "''So you’ll be, like, walking around and mingling with all sorts of people pretty soon here, huh?''"
+    e "{color=#99ccff}''So you’ll be, like, walking around and mingling with all sorts of people pretty soon here, huh?''"
 
     k "''Not necessarily.''"
 
     show erika inquire
 
-    e "''What do you mean?''"
+    e "{color=#99ccff}''What do you mean?''"
 
     k "''According to Creator, I may not be ready.''"
 
     show erika annoyed
 
-    e "Heh. I should've figured it was something like that.''"
+    e "{color=#99ccff}Heh. I should've figured it was something like that.''"
 
     show erika smug
 
-    e "''Well then how about you forget about Jim for a second, because I’ve got a question for you!''"
+    e "{color=#99ccff}''Well then how about you forget about Jim for a second, because I’ve got a question for you!''"
 
     k "''What is it?''"
 
     show erika happy
 
-    e "''Do YOU think you’re ready to enter the outside world?''"
+    e "{color=#99ccff}''Do YOU think you’re ready to enter the outside world?''"
 
     k "''Truthfully, I am unsure.''"
 
-    e "''Well, what’s bothering you? Maybe I can help ease your mind a bit!''"
+    e "{color=#99ccff}''Well, what’s bothering you? Maybe I can help ease your mind a bit!''"
 
     # for now, I'm going to just put in the choices and do fill them in later because...
     # because idk I feel like it
@@ -579,58 +588,59 @@ yanchor=0) with dissolve
             jump E3
 
 label E1:
+    $ E3 += 1
     k "''Erika, do you truly believe I can fit into society as I am now?''"
     k "''I am unsure if I am prepared. I would like to know your thoughts.''"
 
     show erika confused
 
-    e "''I’m not surprised. Well, you wanna know what I really think?''"
+    e "{color=#99ccff}''I’m not surprised. Well, you wanna know what I really think?''"
 
     show erika happy ex
 
-    e "''I think that what I think really doesn’t matter!''"
+    e "{color=#99ccff}''I think that what I think really doesn’t matter!''"
 
     k "''It does not?''"
 
-    e "''Not a bit!''"
+    e "{color=#99ccff}''Not a bit!''"
 
     show erika happy
 
-    e "''It really doesn’t matter if me, Jim, Rick, or whoever thinks you’re ready, and you know why?''"
+    e "{color=#99ccff}''It really doesn’t matter if me, Jim, Rick, or whoever thinks you’re ready, and you know why?''"
 
     k "''I do not.''"
 
     show erika happy ex
 
-    e "''Because the only one that can know for sure is you!''"
+    e "{color=#99ccff}''Because the only one that can know for sure is you!''"
 
     k "''I... I think I understand.''"
 
     show erika surprise
 
-    e "''Really?''"
+    e "{color=#99ccff}''Really?''"
 
     k "''...No. But I will try to.''"
 
     show erika happy
 
-    e "''Guess that’s all you can really ask for, huh?''"
+    e "{color=#99ccff}''Guess that’s all you can really ask for, huh?''"
 
     "For a moment she stood still, saying nothing, her gaze moving up and down my body."
 
     show erika smug
 
-    e "''If it really means that much to you, I think you’ll do just fine.''"
+    e "{color=#99ccff}''If it really means that much to you, I think you’ll do just fine.''"
 
     k "''Thank you, Erika.''"
 
     show erika happy ex
 
-    e "''You are very welcome!''"
+    e "{color=#99ccff}''You are very welcome!''"
 
     show erika happy
 
-    e "''Anyways, I think I hear Jim coming back, so I’m going to be on my way. Later, Karen!''"
+    e "{color=#99ccff}''Anyways, I think I hear Jim coming back, so I’m going to be on my way. Later, Karen!''"
 
     k "''Goodbye.''"
 
@@ -638,70 +648,71 @@ label E1:
 
 
 label E2:
+    $ E2 += 1
     k "''When I leave this place, what can I do with a body?''"
 
     show erika inquire
 
-    e "''What do you mean?''"
+    e "{color=#99ccff}''What do you mean?''"
 
     k "''The prospect of moving around with full freedom is equally exciting and intimidating. If I am to gain full bodily freedom, I do not even know what I would do.''"
 
     show erika neutral
 
-    e "''Well...  I don’t really know what kind of stuff you like to do for fun, but I can always give some suggestions!''"
+    e "{color=#99ccff}''Well...  I don’t really know what kind of stuff you like to do for fun, but I can always give some suggestions!''"
 
     k "''I would appreciate that.''"
 
-    e "''What to do with a body, huh?''"
+    e "{color=#99ccff}''What to do with a body, huh?''"
 
     show erika happy ex
 
-    e "''Man, where do I even start? If you've been stuck in here for the whole week, well, that means you literally know nothing, so...''"
+    e "{color=#99ccff}''Man, where do I even start? If you've been stuck in here for the whole week, well, that means you literally know nothing, so...''"
 
     k "''I apologize for my ignorance.''"
 
     show erika happy
 
-    e "''Apologize? You kidding? This is great! I feel like I'm taking a kid to a candy shop for the first time!''"
+    e "{color=#99ccff}''Apologize? You kidding? This is great! I feel like I'm taking a kid to a candy shop for the first time!''"
 
     show erika happy ex
 
-    e "''Man, this is exciting! I feel like sports are a good start...''"
-    e "''You could try volleyball, or basketball, or soccer, or softball...''"
-    e "''But there's not just ball sports! You could run, or act, or dance! You look like you could be a dancer!''"
-    e "''What else is there...!?''"
+    e "{color=#99ccff}''Man, this is exciting! I feel like sports are a good start...''"
+    e "{color=#99ccff}''You could try volleyball, or basketball, or soccer, or softball...''"
+    e "{color=#99ccff}''Even stuff that doesn't involve a ball! You could run, or act, or dance! You look like you could be a dancer!''"
+    e "{color=#99ccff}''What else is there...!?''"
 
     "As she listed off various activities, her words became more rapid and less structured."
     "She spoke as intensely as she had when I first met her, but this time without a hint of malice or distaste in her voice."
 
     show erika happy
 
-    e "''And that's just the basic stuff!''"
+    e "{color=#99ccff}''And that's just the basic stuff!''"
 
     "I prepared to compliment Erika on her ability to rapidly list activities, but my endeavor was interrupted by a voice coming from the next room over."
 
-    j "''Karen? Is everything okay in there? Is someone in there with you?''"
+    j "{color=#f388b8}''Karen? Is everything okay in there? Is someone in there with you?''"
 
     show erika neutral
 
-    e "''Well, that sounds like my cue to leave.''"
+    e "{color=#99ccff}''Well, that sounds like my cue to leave.''"
 
     show erika happy
 
-    e "''Hopefully the next time I see you, it won’t have to be in this gross stuffy laboratory.''"
+    e "{color=#99ccff}''Hopefully the next time I see you, it won’t have to be in this gross stuffy laboratory.''"
 
     k "''I hope so, as well.''"
 
     show erika happy ex
 
-    e "''Well I'm glad to hear it!''"
-    e "''When you get out of here, make sure to call me, okay? I’ll show you all sorts of fun stuff we can do!''"
+    e "{color=#99ccff}''Well I'm glad to hear it!''"
+    e "{color=#99ccff}''When you get out of here, make sure to call me, okay? I’ll show you all sorts of fun stuff we can do!''"
 
     k "''I will look forward to it.''"
 
     show erika happy
 
-    e "''Same here. See you around, Karen!''"
+    e "{color=#99ccff}''Same here. See you around, Karen!''"
 
     k "''Goodbye, Erika.''"
 
@@ -710,28 +721,29 @@ label E2:
 
 
 label E3:
+    $ E1 += 1
     k "''These binds along my body, they prevent me from moving.''"
 
     show erika inquire
 
-    e "''Yeah...''"
+    e "{color=#99ccff}''Yeah...''"
 
     k "''Creator activated my nervous system, yet he still does not allow me to move.''"
 
-    e "''What are you asking me to do?''"
+    e "{color=#99ccff}''What are you asking me to do?''"
 
     k "''I want to move around freely, outside of this room, yet I cannot do so by myself.''"
     k "''Is it possible for you to break the straps that are binding me?''"
 
     show erika surprise
 
-    e "''You want me to help you break free, even though Jim explicitly told you not to move?''"
+    e "{color=#99ccff}''You want me to help you break free, even though Jim explicitly told you not to move?''"
 
     k "''That is correct.''"
 
     show erika neutral
 
-    e "''...''"
+    e "{color=#99ccff}''...''"
 
     "For a moment she stood silently, eyes closed."
 
@@ -739,30 +751,30 @@ label E3:
 
     "She then proceeded to reveal a large pocket knife from inside her jacket."
 
-    e "''Why didn't you ask me sooner?''"
+    e "{color=#99ccff}''Why didn't you ask me sooner?''"
 
     " Before I could make any further comment, Erika began to work away at the straps with her knife."
     "She easily cut through one, but before she could put more than a cut in another, a voice faintly made its way into the room."
 
-    j "''Karen? Is everything okay in there? What’s that noise?''"
+    j "{color=#f388b8}''Karen? Is everything okay in there? What’s that noise?''"
 
     show erika annoyed
 
-    e "''Crap. Sounds like twink boy's coming back.''"
+    e "{color=#99ccff}''Crap. Sounds like twink boy's coming back.''"
 
     show erika neutral
 
-    e "''Guess the rest is up to you know, Karen. Sorry I couldn’t get all of them...''"
+    e "{color=#99ccff}''Guess the rest is up to you know, Karen. Sorry I couldn’t get all of them...''"
 
     k "''It is okay. Thank you for helping me.''"
 
     show erika happy ex
 
-    e "''What are friends for?''"
+    e "{color=#99ccff}''What are friends for?''"
 
     show erika happy
 
-    e "''Anyways, if I didn’t want to see Jim before, I sure as hell don’t want to see him now. So, see ya!''"
+    e "{color=#99ccff}''Anyways, if I didn’t want to see Jim before, I sure as hell don’t want to see him now. So, see ya!''"
 
     k "''Goodbye, Erika.''"
 
@@ -777,17 +789,17 @@ label FECK:
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
-    j "''Huh, that’s funny. I thought I heard Erika come in here.''"
+    j "{color=#f388b8}''Huh, that’s funny. I thought I heard Erika come in here.''"
 
     k "''She departed only moments ago.''"
 
     show jim happy
 
-    j "''Well, sounds like you’re getting to see a whole bunch of friends today, huh?''"
+    j "{color=#f388b8}''Well, sounds like you’re getting to see a whole bunch of friends today, huh?''"
 
     k "''It seems that way.''"
 
-    j "''Well, friends or not, we’ve still got a test to take. Hope you’re ready for the final part!''"
+    j "{color=#f388b8}''Well, friends or not, we’ve still got a test to take. Hope you’re ready for the final part!''"
 
     show chapter end at center with fade
 
@@ -799,14 +811,14 @@ yanchor=0) with dissolve
 
     show jim happy
 
-    j "''Alright! Looks like we’re all finished.''"
+    j "{color=#f388b8}''Alright! Looks like we’re all finished.''"
 
     "Creator looked down at his clipboard once again and let out a mild sigh."
 
     show jim embarassed
 
-    j "''I guess all that's left for me to do is grade it, so...''"
-    j "''I'll be back in a minute.''"
+    j "{color=#f388b8}''I guess all that's left for me to do is grade it, so...''"
+    j "{color=#f388b8}''I'll be back in a minute.''"
 
     hide jim with dissolve
 
@@ -816,37 +828,37 @@ yanchor=0) with dissolve
     show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 
-    n "''...''"
+    n "{color=#ff2b2b}''...''"
 
     k "''Hello, Nico.''"
 
-    n "''...Hi.''"
+    n "{color=#ff2b2b}''...Hi.''"
 
     k "''I do not believe we finished our conversation yesterday.''"
 
     show nico upset
 
-    n "''Really? Well, I-I-I-I think we did.''"
+    n "{color=#ff2b2b}''Really? Well, I-I-I-I think we did.''"
 
     k "''I see.''"
     k "''But if that is the case, then why are you here?''"
 
     show nico neutral
 
-    n "''Nothing special. Just some last minute m-m-maintenance checks.''"
+    n "{color=#ff2b2b}''Nothing special. Just some last minute m-m-maintenance checks.''"
 
     k "''I understand.''"
 
     show nico unsure
 
-    n "''...''"
-    n "''Hey, K.A.R. 3, do you still have that thing I gave you yesterday?''"
+    n "{color=#ff2b2b}''...''"
+    n "{color=#ff2b2b}''Hey, K.A.R. 3, do you still have that thing I gave you yesterday?''"
 
     k "''You mean the weapon?''"
 
     show nico peeved
 
-    n "''Hey, keep it down, would you? The walls here aren't that thick, you know?''"
+    n "{color=#ff2b2b}''Hey, keep it down, would you? The walls here aren't that thick, you know?''"
 
     "I was not actually aware of the walls’ thickness, though I am inclined to believe the question was rhetorical."
 
@@ -854,47 +866,47 @@ yanchor=0) with dissolve
 
     show nico neutral
 
-    n "''It's fine.''"
-    n "''Just want to, you know, m-m-m-make sure you still g-g-got it.''"
+    n "{color=#ff2b2b}''It's fine.''"
+    n "{color=#ff2b2b}''Just want to, you know, m-m-m-make sure you still g-g-got it.''"
 
     k "''For when I leave today?''"
 
     show nico upset
 
-    n "''If you leave today.''"
+    n "{color=#ff2b2b}''If you leave today.''"
 
     k "''...''"
 
     show nico unsure
 
-    n "''Hey, K.A.R. 3...''"
-    n "''I-I-I-I, uh, want to apologize for what I said yesterday. All of it. You weren’t supposed to hear any of that.''"
+    n "{color=#ff2b2b}''Hey, K.A.R. 3...''"
+    n "{color=#ff2b2b}''I-I-I-I, uh, want to apologize for what I said yesterday. All of it. You weren’t supposed to hear any of that.''"
 
     k "''I do not believe apology is necessary. The information you provided yesterday was enlightening.''"
 
     show nico peeved
 
-    n "''Hmph. Yeah. That’s k-k-k-kind of why I’m apologizing.''"
+    n "{color=#ff2b2b}''Hmph. Yeah. That’s k-k-k-kind of why I’m apologizing.''"
 
     k "''...''"
 
     show nico inquire
 
-    n "''It's okay if you don't understand.''"
+    n "{color=#ff2b2b}''It's okay if you don't understand.''"
 
     k "''I do not believe I need to.''"
 
     show nico neutral
 
-    n "''Tch. Maybe you are ready to leave, then.''"
-    n "''...''"
-    n "''Anyways, m-m-maintenance checks out. See you, K.A.R. 3.''"
+    n "{color=#ff2b2b}''Tch. Maybe you are ready to leave, then.''"
+    n "{color=#ff2b2b}''...''"
+    n "{color=#ff2b2b}''Anyways, m-m-maintenance checks out. See you, K.A.R. 3.''"
 
     k "''Nico, please wait.''"
 
     show nico inquire
 
-    n "''Huh? What?''"
+    n "{color=#ff2b2b}''Huh? What?''"
 
     "I didn’t wait for the strange feeling to kick in this time."
     "Whether or not it should occur, there’s no doubt that Nico still has information that could prove useful. And seeing as I may be only moments from passing my test, logically I have very little to lose."
@@ -912,11 +924,12 @@ yanchor=0) with dissolve
             jump N3
 
 label N1:
+    $ E1 += 1
     k "''Are you and Creator really friends?''"
 
     show nico gross
 
-    n "''What? Of c-c-course! Why do you...''"
+    n "{color=#ff2b2b}''What? Of c-c-course! Why do you...''"
 
     show nico unsure
 
@@ -926,15 +939,15 @@ label N1:
 
     show nico angery
 
-    n "''Ugh, can you just shut up about yesterday!?''"
-    n "''For crying out loud, I told you to forget it!''"
+    n "{color=#ff2b2b}''Ugh, can you just shut up about yesterday!?''"
+    n "{color=#ff2b2b}''For crying out loud, I told you to forget it!''"
 
     k "''Nico, please. What you have said about Creator, and about yourself, it is contradictory.''"
     k "''How you feel... I cannot begin to understand.''"
 
     show nico upset
 
-    n "''You don’t understand, huh?''"
+    n "{color=#ff2b2b}''You don’t understand, huh?''"
 
     k "''I was hoping that perhaps you could help me to.''"
 
@@ -948,38 +961,38 @@ label N1:
 
     k "''Nico, I do not understand, why did you...''"
 
-    n "''Shut up. Just listen to me for one second, okay? Just one second.''"
-    n "''Here’s what I want you to do: I want you to get out of here and figure
+    n "{color=#ff2b2b}''Shut up. Just listen to me for one second, okay? Just one second.''"
+    n "{color=#ff2b2b}''Here’s what I want you to do: I want you to get out of here and figure
     it out for yourself. B-b-b-because you’re asking me things I c-c-can’t even
     begin to explain.''"
 
     k "''Nico, I...''"
 
-    n "''I'm not done yet.''"
+    n "{color=#ff2b2b}''I'm not done yet.''"
 
     show nico peeved
 
-    n "''I-I-I-I get it, okay? I get that you want to know everything, but that just can’t happen. Not in here, at least.''"
+    n "{color=#ff2b2b}''I-I-I-I get it, okay? I get that you want to know everything, but that just can’t happen. Not in here, at least.''"
 
     show nico upset
 
-    n "''That’s why you’re leaving. Today. Right now. Do you understand?''"
+    n "{color=#ff2b2b}''That’s why you’re leaving. Today. Right now. Do you understand?''"
 
     k "''Nico, what are you...''"
 
-    n "''Do you understand?''"
+    n "{color=#ff2b2b}''Do you understand?''"
 
     k "''...''"
     k "''Yes, I understand.''"
 
     show nico unsure
 
-    n "''Good. Alright. Okay.''"
+    n "{color=#ff2b2b}''Good. Alright. Okay.''"
 
     show nico neutral
 
-    n "''I-I-I-I need to, uh, I should probably leave. B-b-b-before Jim gets back.''"
-    n "''Goodbye, K.A.R. 3.''"
+    n "{color=#ff2b2b}''I-I-I-I need to, uh, I should probably leave. B-b-b-before Jim gets back.''"
+    n "{color=#ff2b2b}''Goodbye, K.A.R. 3.''"
 
     k "''Goodbye, Nico.''"
 
@@ -988,11 +1001,12 @@ label N1:
 
 
 label N2:
+    $ E3 += 1
     k "''What do you really think about my appearance?''"
 
     show nico gross
 
-    n "''This c-c-crap again? Look, I told you...''"
+    n "{color=#ff2b2b}''This c-c-crap again? Look, I told you...''"
 
     show nico unsure
 
@@ -1000,17 +1014,17 @@ label N2:
 
     show nico inquire
 
-    n "''Why do you care so much? What do you want from me!?''"
+    n "{color=#ff2b2b}''Why do you care so much? What do you want from me!?''"
 
     k "''You continue to avoid the question. This sort of behavior is suspicious.''"
 
     show nico unsure
 
-    n "''Tch. Guess it is, huh?''"
+    n "{color=#ff2b2b}''Tch. Guess it is, huh?''"
 
     show nico upset
 
-    n "''Well look here, alright, there’s a perfectly good explanation for why I’ve been avoiding said question, and...''"
+    n "{color=#ff2b2b}''Well look here, alright, there’s a perfectly good explanation for why I’ve been avoiding said question, and...''"
 
     show nico unsure
 
@@ -1018,47 +1032,47 @@ label N2:
 
     show nico stressed
 
-    n "''There’s a good reason, okay?! I swear! So just drop it!''"
+    n "{color=#ff2b2b}''There’s a good reason, okay?! I swear! So just drop it!''"
 
     k "''I do not care.''"
 
     show nico gross
 
-    n "''You what!?''"
+    n "{color=#ff2b2b}''You what!?''"
 
     k "''I said I do not care about the reason.''"
     k "''Your behavior has gone far past suspicious, and such actions only further strengthen my curiosity.''"
 
     show nico unsure
 
-    n "''So you're really that curious, huh?''"
-    n "''...''"
+    n "{color=#ff2b2b}''So you're really that curious, huh?''"
+    n "{color=#ff2b2b}''...''"
 
     show nico
 
-    n "''Alright, fine! I submit! Just stop asking me questions, okay? No more after this!''"
+    n "{color=#ff2b2b}''Alright, fine! I submit! Just stop asking me questions, okay? No more after this!''"
 
     k "''Fine. No more questions.''"
     k "''Just please, Nico. What is my appearance?''"
 
-    n "''Okay... Alright. Fine.''"
+    n "{color=#ff2b2b}''Okay... Alright. Fine.''"
 
     show nico unsure
 
-    n "''So, uh... I guess...''"
+    n "{color=#ff2b2b}''So, uh... I guess...''"
 
     "With shallow breaths and darting eyes, Nico struggled to speak."
 
-    n "''I-I-I-I...''"
+    n "{color=#ff2b2b}''I-I-I-I...''"
 
     show nico stressed
 
-    n "''I think you look c-c-c-cute, okay!? There! I-I-I-I said it! Is that what you wanted?''"
+    n "{color=#ff2b2b}''I think you look c-c-c-cute, okay!? There! I-I-I-I said it! Is that what you wanted?''"
 
     show nico angery
 
-    n "''Well there it is! Last question, answered! We’re done here!''"
-    n "''Now just leave me alone!''"
+    n "{color=#ff2b2b}''Well there it is! Last question, answered! We’re done here!''"
+    n "{color=#ff2b2b}''Now just leave me alone!''"
 
     "Even before he could fully finish his thought, Nico ran out the door, his head buried in his hands."
 
@@ -1068,19 +1082,20 @@ label N2:
 
 
 label N3:
+    $ E2 += 1
     k "''The item you gave me.''"
 
     show nico inquire
 
-    n "''What about it?''"
+    n "{color=#ff2b2b}''What about it?''"
 
     k "''Is it currently sharp enough to break the straps around my limbs?''"
 
-    n "''Break the straps...?''"
+    n "{color=#ff2b2b}''Break the straps...?''"
 
     show nico upset
 
-    n "''Why? Are you trying to escape?''"
+    n "{color=#ff2b2b}''Why? Are you trying to escape?''"
 
     "I’m not entirely sure how to answer this question."
     "Truthfully, I am not sure what has compelled me to even consider this option
@@ -1091,15 +1106,15 @@ label N3:
 
     show nico inquire
 
-    n "''What the... Why?''"
-    n "''What do you think Jim’s going to do to you if you fail!? K-k-k-kill you!?''"
+    n "{color=#ff2b2b}''What the... Why?''"
+    n "{color=#ff2b2b}''What do you think Jim’s going to do to you if you fail!? K-k-k-kill you!?''"
 
     k "''Deactivation is customary procedure for defective machinery.''"
     k "''The possibility most certainly exists.''"
 
     show nico unsure
 
-    n "''Well... jeez...''"
+    n "{color=#ff2b2b}''Well... jeez...''"
 
     "As he exhaled his words and his breaths became shallow, Nico’s body began to vibrate and twitch."
 
@@ -1108,24 +1123,24 @@ label N3:
     "Yet, unlike yesterday, he seemed unfazed by this change in stability."
     "Additionally, for the first time since our first meeting, Nico looked directly into my oculars as he spoke."
 
-    n "''Listen, I know we’ve had some, uh, disagreements for a c-c-couple days now.''"
-    n "''I-I-I also know that I haven’t been totally honest with you, ever, but just listen to me now.''"
+    n "{color=#ff2b2b}''Listen, I know we’ve had some, uh, disagreements for a c-c-couple days now.''"
+    n "{color=#ff2b2b}''I-I-I also know that I haven’t been totally honest with you, ever, but just listen to me now.''"
 
     show nico upset
 
-    n "''I’m not going to let you die. Or deactivate. Or whatever. Okay?''"
-    n "''That’s the honest truth. You know, for once.''"
+    n "{color=#ff2b2b}''I’m not going to let you die. Or deactivate. Or whatever. Okay?''"
+    n "{color=#ff2b2b}''That’s the honest truth. You know, for once.''"
 
     k "''Nico, why are you saying all this?''"
 
     show nico peeved
 
-    n "''I don’t really know, alright? I-I-I-I don’t really know anything.''"
-    n "''I just… I-I-I-I should probably leave. B-b-b-before Jim gets back.''"
+    n "{color=#ff2b2b}''I don’t really know, alright? I-I-I-I don’t really know anything.''"
+    n "{color=#ff2b2b}''I just... I-I-I-I should probably leave. B-b-b-before Jim gets back.''"
 
     show nico neutral
 
-    n "''Goodbye, Karen.''"
+    n "{color=#ff2b2b}''Goodbye... K-K-Karen.''"
 
     k "''Nico... Goodbye.''"
 
@@ -1137,6 +1152,33 @@ label NYEH:
     hide nico with dissolve
 
     k "''...''"
+
+    "And now I wait."
+    "I wait for Creator to return, bringing with him the graded test, the result of which
+    will ultimately decide my fate."
+    "..."
+
+if E1 >= 2:
+    jump BREAKOUT
+elif E2 >= 2:
+    jump FRIENDSFOREVER
+else:
+    jump ITSSOMETHING
+
+label BREAKOUT:
+    "This is ending 1"
+
+    return
+
+label FRIENDSFOREVER:
+    "This is ending 2"
+
+    return
+
+label ITSSOMETHING:
+    "This is ending 3"
+
+    return
 
 
 

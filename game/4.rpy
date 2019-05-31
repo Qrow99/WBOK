@@ -62,6 +62,8 @@ yanchor=0)
 
     "Interrupting my thought is Nico, who appears flustered."
 
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
+
     show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
 

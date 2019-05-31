@@ -344,10 +344,13 @@ yanchor=0)
 
     "As Creator talked, I decided to research the concept of IQ."
 
+    show online smrt
+    hide searching
+
     "There are many tests which claim to measure IQ online. Taking these
     would likely prove beneficial for the task at hand."
 
-    hide searching
+    show online online
 
     k "''I have just finished taking twenty seven online IQ tests, resulting
     in a mean score of approximately one hundred and sixty three.''"

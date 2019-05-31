@@ -23,13 +23,13 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.5"
+define config.version = "0.7"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Is there room for any more Billy Joel references?
+define gui.about = _p("""Maybe I'll put the credits here at some point.
 """)
 
 
