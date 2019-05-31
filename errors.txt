@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/thelastone.rpy", line 10: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    hide chapter end with fade
-    ^
+File "game/thelastone.rpy", line 1251: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Thu May 30 17:52:27 2019
+Thu May 30 19:58:12 2019

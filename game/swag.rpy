@@ -189,7 +189,7 @@ yanchor=0)
 
     hide searching
 
-    "Puppet. Noun. A person, party, or state under the control of a separate person, party, or power.''"
+    "Puppet. Noun. A person, party, or state under the control of a separate person, party, or power."
 
     k "''By definition, I am not a puppet.''"
 

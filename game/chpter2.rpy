@@ -433,7 +433,7 @@ yanchor=0)
     j "{color=#f388b8}''Still, I’m thinking that I maybe should’ve vetted these questions
     before you came in today...''"
 
-    show rick angery
+    show rick embarassed
 
     r "{color=#FC983B}''Are you implying the questions I’ve supplied are inadequate, Mister
     MacGuffin?''"
@@ -696,13 +696,15 @@ yanchor=0)
 
     "As I spoke, Rick stared in my direction, unmoving, for a moment."
 
-    show rick interested
+    show rick excited
 
     "Suddenly, he began to lean toward me, eyes widening, his body hunched
     over his notepad."
 
     r "{color=#FC983B}''What do you mean by 'full range of behaviors,'
     exactly?''"
+
+    show rick inquire
 
     k "''Historically, robotic dogs are created like other machines, with a
     singular purpose in mind.''"

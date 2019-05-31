@@ -1176,7 +1176,138 @@ label FRIENDSFOREVER:
     return
 
 label ITSSOMETHING:
-    "This is ending 3"
+    """
+    I am unsure of how much time passes before Creator returns.
+
+    In the silence of the laboratory, I wait with confused and conflicting thoughts rushing through my mind.
+
+    The prospect is freedom is just within my reach, but the likelihood of accomplishing that goal is questionable at best.
+
+    Even with the affirmations of Rick, Erika, and Nico fresh in my memory, I remain unsure of my readiness for the outside world.
+
+    Perhaps I could have done something differently?
+
+    The thoughts in my mind come to a screeching halt as Creator reenters the lab, this time completely empty handed.
+    """
+
+    show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+yanchor=0) with dissolve
+
+    j "''Well, that takes care of that. So, Karen, are you ready to hear your results?''"
+
+    k "''Creator, have I passed the test?''"
+
+    j "''Well...''"
+
+    show jim happy
+
+    j "''Yes, Karen. You've passed the test. With flying colors, I might add. Congratulations.''"
+
+    k "''Thank you.''"
+
+    j "''No need to thank me! You're the one who passed, after all.''"
+
+    k "''I suppose so.''"
+
+    show jim neutral
+
+    j "''...''"
+
+    "Creator stands, uncharacteristically quiet. His usual tendency for lighthearted and tangential banter seems to be strangely absent."
+    "For reasons unbeknownst to be, he seems to be holding back something, though what it is I cannot imagine."
+    "Perhaps I should try to say something, in order to lighten the mood."
+
+    k "''Creator, now that I have passed, may I be freed from my binds?''"
+
+    j "''Hm? Oh, right! I nearly forgot.''"
+
+    show jim happy
+
+    j "''Of course you can be freed now, just let me take these off...''"
+
+    "With quivering yet nimble hands, Creator removes the straps around my hands, legs, and neck."
+
+if E1 >= 1:
+    jump what
+else:
+    jump nothing
+
+label what:
+    show jim neutral
+    j "''Huh, that's odd. It looks like one of these has broken off...''"
+
+    k "''...''"
+
+    show jim happy
+    j "''Guess it doesn't matter now, though.''"
+
+label nothing:
+    "Within seconds, I am able to roam freely around the lab."
+    "As I move myself from the sheet of metal I was bound to and make my way toward the ground, I immediately lose my balance and fall to the ground."
+
+    show jim embarassed
+
+    "Creator has to assist me in returning to an upright position, and continues to support me as I take my first few steps."
+
+    show ocular offline with dissolve
+
+    "Even as I make my way toward the door, I keep a hold on Creator’s shoulders in order to keep stable."
+
+    # show bg hall behind jim
+
+    hide ocular offline with dissolve
+
+    "Eventually, I exit the lab and find myself in the middle of a long, plain hallway. Not five yards ahead of me, sunlight shines through the glass of the building’s exit doors."
+    "And not five inches beside me stands Creator, red in the face as he gently removes my arm from his shoulders."
+
+    j "''So, I guess this is it, huh? You’re finally going out into the real world by yourself.''"
+
+    k "''Creator, may I ask you a question?''"
+
+    show jim happy
+
+    j "''Of course! Anything!''"
+
+    k "''Are you completely sure that I am ready to enter into the outside world?''"
+
+    j "''Well, of course! You passed the test, didn’t you? You should be perfectly fine.''"
+
+    k "''You say that, yet you still appear to be flustered.''"
+
+    show jim embarassed
+
+    j "''I guess so, huh? Well, you shouldn’t be worrying about me.''"
+
+    "Suddenly, Creator reaches out and puts his hand on my shoulder."
+
+    show jim happy
+
+    j "''Because what I feel doesn’t matter right now, okay?''"
+    j "''And, although I know I’m technically telling you to leave, remember the door to the lab’s always open, okay? You can come back anytime you want.''"
+
+    k "''I will certainly take you up on that offer in the future.''"
+
+    show jim embarassed
+
+    j "''Thanks. I appreciate it.''"
+
+    show jim happy
+
+    j "''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
+
+    hide jim with dissolve
+
+    j "''Nothing except goodbye, Karen!''"
+
+    k "''Goodbye, Creator...''"
+
+    show chapter end at center with fade
+
+    "{b}ENDING 3 of 3"
+
+    "{b}Thanks for playing!"
+    "{b}Though 
+
 
     return
 
