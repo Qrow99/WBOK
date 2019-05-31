@@ -39,14 +39,14 @@ yanchor=0)
 
     show jim happy
 
-    j "{color=#f388b8}{color=#f388b8}''Good afternoon, Karen.''"
+    j "{color=#f388b8}''Good afternoon, Karen.''"
 
     k "''Creator, you're here.''"
 
     show jim embarassed
 
-    j "{color=#f388b8}{color=#f388b8}''I am, yeah...''"
-    j "{color=#f388b8}{color=#f388b8}''So I suppose an apology is in order, huh? I really should've told
+    j "{color=#f388b8}''I am, yeah...''"
+    j "{color=#f388b8}''So I suppose an apology is in order, huh? I really should've told
     you that I couldn't make it to the lab yesterday.''"
 
     k "''I was unsure of your whereabouts. I was alone.''"
@@ -1166,12 +1166,364 @@ else:
     jump ITSSOMETHING
 
 label BREAKOUT:
-    "This is ending 1"
+    """
+    Although, it doesn’t necessarily have to be that way.
+
+    The straps around my limbs... most of them have been cut or unfastened by those who came to visit me.
+
+    And the weapon Nico gifted to me might just be sharp enough to break the last one. Now that my hands are free, I may be able to...
+
+    I remove the sharp wooden object from my sleeve, where Nico had left it. It takes a great deal of aggressive cutting, but eventually the strap around my neck comes loose.
+
+    I can freely move around the lab.
+
+    As I move myself from the sheet of metal I was bound to and make my way toward the ground, I immediately lose my balance.
+
+    Using the various desks and stools filling the lab as supports, I am able to stumble toward the door.
+    """
+
+    show ocular offline with dissolve
+
+    # show bg hall behind jim
+
+    "By the time I reach the exit I can still hardly walk, but I can at least keep myself upright."
+
+    show ocular crt with dissolve
+
+    """
+    As I make my way out of the room, I find myself in the middle of a long, plain hallway. Not five yards ahead of me, sunlight shines through the glass of the building’s exit doors.
+    """
+
+    show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+yanchor=0) with dissolve
+
+    "And not five feet ahead of me stands my Creator."
+
+    j "{color=#f388b8}''Karen...?''"
+
+    k "''Creator?''"
+
+    "We both stand in silence momentarily, but before I can even attempt to explain myself, Creator begins to chuckle softly."
+
+    show jim happy
+
+    j "{color=#f388b8}''So I guess Nico really did have the right idea giving you that block, huh?''"
+
+    k "''You know about the weapon?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Suffice it to say, Nico was right about the walls not being all that thick.''"
+
+    show jim neutral
+
+    j "{color=#f388b8}''The storage room with all your files is right next to the lab. I’ve heard pretty much everything.''"
+
+    """
+    So Creator has heard everything...
+
+    This realization is quite upsetting. If Creator has heard everything that has happened today, then that means he’s heard each and every way I’ve attempted to essentially go rogue.
+
+    If I were not afraid of being deactivated before, I certainly am now.
+    """
+
+    k "''Creator, I...''"
+    k "''For trying to escape, I am sorry. I know I disobeyed orders, but please do not deactivate me. I will return to the lab this instant.''"
+
+    show jim happy
+
+    j "{color=#f388b8}''That won’t be necessary.''"
+
+    k "''It will not?''"
+
+    j "{color=#f388b8}''Of course! Returning to the lab would be pointless, considering that you passed the test!''"
+
+    "The test. In my haste to escape the lab, I had essentially discarded the possibility that I would legitimately pass my examination and be set free."
+
+    k "''Even though I have attempted to escape the laboratory without permission, you will still allow me to leave because of my test score?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Well, kind of yes and kind of no.''"
+
+    k "''What do you mean?''"
+
+    show jim neutral
+
+    j "{color=#f388b8}''The test, at least the way you think of it, didn’t actually matter. I didn’t actually grade it or anything. It was fake.''"
+
+    k "''Fake?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Yep, totally fake. A farce. Completely meaningless.''"
+
+    k "''If the test was not real or graded, then how have I passed?''"
+
+    show jim happy
+
+    j "{color=#f388b8}''Because the papers weren’t the actual test!''"
+    j "{color=#f388b8}''You were supposed to be tested on your ability to communicate and interact with human beings, right?''"
+
+    k "''As far as I am aware, that is correct.''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Well, with that definition, I had pretty much considered you as ‘passing’ by Wednesday evening.''"
+
+    show jim happy
+
+    j "{color=#f388b8}''And considering where we’re standing right now, it’s pretty clear to me that you can do far more than just keep a decent conversation.''"
+    j "{color=#f388b8}''Heck, you were able to converse your way into planning a breakout, weren’t you?''"
+
+    k "''I suppose that is correct, but I am still confused. Are you not angry that I went against your will? Are you not concerned that I may go rogue? Are you certain that I am ready for the outside world?''"
+
+    "I still have a plethora of questions for my Creator. His calm and pleasant demeanor, though usually comfortingly consistent, strikes me as wildly inappropriate in this setting."
+    "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
+
+    scene bg room with dissolve
+
+    j "{color=#f388b8}''Karen. It’s okay.''"
+    j "{color=#f388b8}''Really, it’s okay. I know you’ve got a lot of questions, but this isn’t the time to get them answered.''"
+    j "{color=#f388b8}''I mean, hey! You passed your test, and you’re going into the outside world now! It’s like a graduation or something! You should be excited, not worried!''"
+
+    "Though I want to ask questions or retort, I feel the need to listen to Creator’s words."
+    "His disposition has not changed, but as he continues to talk, I can hear his voice tremble slightly and see his face begin to redden."
+
+    j "{color=#f388b8}''If you really are concerned with how I feel, though, then I’ll tell you what’ll make me happy.''"
+    j "{color=#f388b8}''I’d be absolutely ecstatic if you walked right out of those doors behind me and enjoyed your life.''"
+
+    k "''Enjoy my life?''"
+    k "''If that is what you want, then I will do my best.''"
+
+    j "{color=#f388b8}''That's all I ask for.''"
+    j "{color=#f388b8}''...''"
+    j "{color=#f388b8}''Anyways, I guess I really shouldn’t keep you here for any longer, huh?''"
+    j "{color=#f388b8}''And, although I know I just told you to leave, remember the door to the lab’s always open, okay? You can come back anytime you want.''"
+
+    k "''I will most likely take you up on that offer in the future.''"
+
+    j "{color=#f388b8}''Thanks. That makes me feel a lot better, actually.''"
+    j "{color=#f388b8}''So anyways, go on ahead, alright? Your life is up to you now!''"
+    j "{color=#f388b8}''Heh… sorry, was that too cheesy? Either way, I don’t think I have anything else to say...''"
+
+    # something something Jim fades away
+
+    j "{color=#f388b8}''Nothing except goodbye, Karen!''"
+
+    k "''Goodbye, Creator...''"
+
+    show chapter end at center with fade
+
+    k "''Hello, world.''"
+
+    "{b}ENDING 1 of 3"
+
+    "{b}Thank you for playing!"
+
+
 
     return
 
 label FRIENDSFOREVER:
-    "This is ending 2"
+    """
+    I am unsure of how much time passes before Creator returns.
+
+    In the silence of the laboratory, I wait with confused and conflicting thoughts rushing through my mind.
+
+    For a brief moment I even consider attempting to break my binds and run away, but that thought quickly passes.
+
+    If I were to leave, I fear the consequences of being caught. Furthermore I do not believe I am even strong enough to break my bindings with sheer force alone.
+
+    Perhaps the weapon Nico gave me could be sharp enough to cut them, but that object is inaccessible to me so long as I remain tied up.
+
+    Perhaps I could have done something differently?
+    """
+
+    show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+    yanchor=0) with dissolve
+
+    "The thoughts in my mind come to a screeching halt as Creator reenters the lab, this time completely empty handed."
+
+    j "{color=#f388b8}''Well, that takes care of that. So, Karen, are you ready to hear your results?''"
+
+    k "''Creator, have I passed the test?''"
+
+    j "{color=#f388b8}''Well, uh, how do I explain this...''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Kind of yes, and kind of no.''"
+
+    k "''What do you mean?''"
+
+    show jim happy
+
+    j "{color=#f388b8}''The test, at least the way you think of it, didn’t actually matter. I didn’t actually grade it or anything. It was fake.''"
+
+    k "''Fake?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Yep, totally fake. A farce. Completely meaningless.''"
+
+    k "''If the test was not real or graded, then how have I passed?''"
+
+    show jim happy
+
+    j "{color=#f388b8}''Because the papers weren’t the actual test!''"
+    j "{color=#f388b8}''You were supposed to be tested on your ability to communicate and interact with human beings, right?''"
+
+    k "''As far as I am aware, that is correct.''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Well, with that definition, I had pretty much considered you as ‘passing’ by Wednesday evening.''"
+    j "{color=#f388b8}''It’s not that important to me whether or not you can employ perfect grammar or research colloquialisms, because that doesn’t matter in the real world.''"
+
+    k "''Then what is important? What exactly was I being tested on?''"
+
+    j "{color=#f388b8}''Heh... This might sound a little crazy, but...''"
+
+    show jim happy
+
+    j "{color=#f388b8}''I’ve been testing you on your ability to make friends.''"
+
+    k "''My ability to make friends? Is that characteristic even quantifiable?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Well, not really, hence why I’m a little embarrassed.''"
+
+    k "''Does this mean that everything, not just the test but the lesson plans as well, were all a facade?''"
+
+    show jim neutral
+
+    j "{color=#f388b8}''Not initially... I really did plan to personally educate you, but obviously things didn’t end up that way.''"
+
+    show jim happy
+
+    j "{color=#f388b8}''I guess it all worked out for the best though, considering your performance today.''"
+
+    k "''What do you mean? I recall you saying the test did not matter.''"
+
+    j "{color=#f388b8}''I wasn’t talking about the test. I was talking about what you said to all your visitors today.''"
+
+    k "''You are aware the conversations I had with the visitors?''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Suffice it to say, Nico was right about the walls not being all that thick.''"
+
+    show jim neutral
+
+    j "{color=#f388b8}''The storage room with all your files is right next to the lab. I’ve heard pretty much everything.''"
+
+    show jim happy
+
+    j "{color=#f388b8}''Even though it’s only been a week, it’s clear to me that you’ve made some impact on those people. At least enough for them to want to visit you.''"
+
+    k "''Perhaps Nico does not count, as he only visited to perform my final maintenance check.''"
+
+    show jim neutral
+
+    j "{color=#f388b8}''Oh yeah, I forgot he said that.''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Between you and me, we finished doing your maintenance checks before you woke up this afternoon.''"
+
+    k "''I see. This revelation is quite enlightening.''"
+
+    j "{color=#f388b8}''I guess it would be, huh?''"
+
+    show jim happy
+
+    j "{color=#f388b8}''Well, while you think about that, why don’t I take off these binds of yours?''"
+
+    "With slim and nimble hands, Creator removes the straps around my hands, legs, and neck."
+
+if E1 >= 1:
+    jump what2
+else:
+    jump nothing2
+
+label what2:
+    show jim neutral
+    j "{color=#f388b8}''Huh, that's odd. It looks like one of these has broken off...''"
+
+    k "''...''"
+
+    show jim happy
+    j "{color=#f388b8}''Guess it doesn't matter now, though.''"
+
+label nothing2:
+    "Within seconds, I am able to roam freely around the lab."
+    "As I move myself from the sheet of metal I was bound to and make my way toward the ground, I immediately lose my balance."
+
+    show jim happy
+
+    "Creator holds me upright for my first few steps, but soon I am able to clumsily balance by myself."
+
+    show ocular offline with dissolve
+
+    "Even as I make my way toward the door, I keep a hold on Creator’s shoulders in order to keep stable."
+
+    # show bg hall behind jim
+
+    show ocular crt with dissolve
+
+    "I make my way out of the lab and find myself in the middle of a long, plain hallway. Not five yards ahead of me, sunlight shines through the glass of the building’s exit doors."
+    "And not five feet behind me stands Creator, red in the face and standing more bent over than usual."
+
+    show jim embarassed
+
+    j "{color=#f388b8}''So, I guess this is it, huh? You’re finally going out into the real world by yourself.''"
+
+    k "''Creator, may I ask you a question?''"
+
+    show jim happy
+
+    j "{color=#f388b8}''Of course! Anything!''"
+
+    k "''Are you worried about how I will fare in the outside world?''"
+
+    j "{color=#f388b8}''In all honesty... I’m not worried at all. A little anxious, maybe, but I couldn’t be more confident that you’ll be fine.''"
+
+    k "''You say you are not worried, yet you still appear to be flustered.''"
+
+    show jim flustered
+
+    j "{color=#f388b8}''Don’t worry about it. I think I’m just coming down with empty nest syndrome...''"
+
+    "Suddenly, Creator reaches out and puts his hand on my shoulder."
+
+    show jim happy
+
+    j "{color=#f388b8}''But what I feel doesn’t matter right now, okay?''"
+    j "{color=#f388b8}''And, although I know I’m technically telling you to leave, remember the door to the lab’s always open, okay? You can come back anytime you want.''"
+
+    k "''I will certainly take you up on that offer in the future.''"
+
+    show jim embarassed
+
+    j "{color=#f388b8}''Thanks. I appreciate it.''"
+
+    show jim happy
+
+    j "{color=#f388b8}''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
+
+    hide jim with dissolve
+
+    j "{color=#f388b8}''Nothing except goodbye, Karen!''"
+
+    stop music fadeout 5.0
+
+    k "''Goodbye, Creator...''"
+
+    show chapter end at center with fade
+
+    "{b}ENDING 2 of 3"
 
     return
 
@@ -1186,32 +1538,32 @@ label ITSSOMETHING:
     Even with the affirmations of Rick, Erika, and Nico fresh in my memory, I remain unsure of my readiness for the outside world.
 
     Perhaps I could have done something differently?
-
-    The thoughts in my mind come to a screeching halt as Creator reenters the lab, this time completely empty handed.
     """
 
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
-yanchor=0) with dissolve
+    yanchor=0) with dissolve
 
-    j "''Well, that takes care of that. So, Karen, are you ready to hear your results?''"
+    "The thoughts in my mind come to a screeching halt as Creator reenters the lab, this time completely empty handed."
+
+    j "{color=#f388b8}''Well, that takes care of that. So, Karen, are you ready to hear your results?''"
 
     k "''Creator, have I passed the test?''"
 
-    j "''Well...''"
+    j "{color=#f388b8}''Well...''"
 
     show jim happy
 
-    j "''Yes, Karen. You've passed the test. With flying colors, I might add. Congratulations.''"
+    j "{color=#f388b8}''Yes, Karen. You've passed the test. With flying colors, I might add. Congratulations.''"
 
     k "''Thank you.''"
 
-    j "''No need to thank me! You're the one who passed, after all.''"
+    j "{color=#f388b8}''No need to thank me! You're the one who passed, after all.''"
 
     k "''I suppose so.''"
 
     show jim neutral
 
-    j "''...''"
+    j "{color=#f388b8}''...''"
 
     "Creator stands, uncharacteristically quiet. His usual tendency for lighthearted and tangential banter seems to be strangely absent."
     "For reasons unbeknownst to be, he seems to be holding back something, though what it is I cannot imagine."
@@ -1219,11 +1571,11 @@ yanchor=0) with dissolve
 
     k "''Creator, now that I have passed, may I be freed from my binds?''"
 
-    j "''Hm? Oh, right! I nearly forgot.''"
+    j "{color=#f388b8}''Hm? Oh, right! I nearly forgot.''"
 
     show jim happy
 
-    j "''Of course you can be freed now, just let me take these off...''"
+    j "{color=#f388b8}''Of course you can be freed now, just let me take these off...''"
 
     "With quivering yet nimble hands, Creator removes the straps around my hands, legs, and neck."
 
@@ -1234,12 +1586,12 @@ else:
 
 label what:
     show jim neutral
-    j "''Huh, that's odd. It looks like one of these has broken off...''"
+    j "{color=#f388b8}''Huh, that's odd. It looks like one of these has broken off...''"
 
     k "''...''"
 
     show jim happy
-    j "''Guess it doesn't matter now, though.''"
+    j "{color=#f388b8}''Guess it doesn't matter now, though.''"
 
 label nothing:
     "Within seconds, I am able to roam freely around the lab."
@@ -1255,59 +1607,57 @@ label nothing:
 
     # show bg hall behind jim
 
-    hide ocular offline with dissolve
+    show ocular crt with dissolve
 
     "Eventually, I exit the lab and find myself in the middle of a long, plain hallway. Not five yards ahead of me, sunlight shines through the glass of the building’s exit doors."
     "And not five inches beside me stands Creator, red in the face as he gently removes my arm from his shoulders."
 
-    j "''So, I guess this is it, huh? You’re finally going out into the real world by yourself.''"
+    j "{color=#f388b8}''So, I guess this is it, huh? You’re finally going out into the real world by yourself.''"
 
     k "''Creator, may I ask you a question?''"
 
     show jim happy
 
-    j "''Of course! Anything!''"
+    j "{color=#f388b8}''Of course! Anything!''"
 
     k "''Are you completely sure that I am ready to enter into the outside world?''"
 
-    j "''Well, of course! You passed the test, didn’t you? You should be perfectly fine.''"
+    j "{color=#f388b8}''Well, of course! You passed the test, didn’t you? You should be perfectly fine.''"
 
     k "''You say that, yet you still appear to be flustered.''"
 
     show jim embarassed
 
-    j "''I guess so, huh? Well, you shouldn’t be worrying about me.''"
+    j "{color=#f388b8}''I guess so, huh? Well, you shouldn’t be worrying about me.''"
 
     "Suddenly, Creator reaches out and puts his hand on my shoulder."
 
     show jim happy
 
-    j "''Because what I feel doesn’t matter right now, okay?''"
-    j "''And, although I know I’m technically telling you to leave, remember the door to the lab’s always open, okay? You can come back anytime you want.''"
+    j "{color=#f388b8}''Because what I feel doesn’t matter right now, okay?''"
+    j "{color=#f388b8}''And, although I know I’m technically telling you to leave, remember the door to the lab’s always open, okay? You can come back anytime you want.''"
 
     k "''I will certainly take you up on that offer in the future.''"
 
     show jim embarassed
 
-    j "''Thanks. I appreciate it.''"
+    j "{color=#f388b8}''Thanks. I appreciate it.''"
 
     show jim happy
 
-    j "''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
+    j "{color=#f388b8}''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
 
     hide jim with dissolve
 
-    j "''Nothing except goodbye, Karen!''"
+    j "{color=#f388b8}''Nothing except goodbye, Karen!''"
+
+    stop music fadeout 5.0
 
     k "''Goodbye, Creator...''"
 
     show chapter end at center with fade
 
     "{b}ENDING 3 of 3"
-
-    "{b}Thanks for playing!"
-    "{b}Though 
-
 
     return
 
