@@ -201,6 +201,8 @@ yanchor=0)
 
     r "{color=#FC983B}''In that case, let us not waste any more time.''"
 
+    show rick embarassed
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 

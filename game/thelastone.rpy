@@ -1184,7 +1184,8 @@ label BREAKOUT:
 
     show ocular offline with dissolve
 
-    # show bg hall behind jim
+    show hall behind ocular at Position(xpos=0.5, xanchor=0.5, ypos=21,
+ yanchor=0)
 
     "By the time I reach the exit I can still hardly walk, but I can at least keep myself upright."
 
@@ -1305,7 +1306,7 @@ yanchor=0) with dissolve
 
     j "{color=#f388b8}''Thanks. That makes me feel a lot better, actually.''"
     j "{color=#f388b8}''So anyways, go on ahead, alright? Your life is up to you now!''"
-    j "{color=#f388b8}''Heh… sorry, was that too cheesy? Either way, I don’t think I have anything else to say...''"
+    j "{color=#f388b8}''Heh... sorry, was that too cheesy? Either way, I don’t think I have anything else to say...''"
 
     # something something Jim fades away
 
@@ -1469,7 +1470,8 @@ label nothing2:
 
     "Even as I make my way toward the door, I keep a hold on Creator’s shoulders in order to keep stable."
 
-    # show bg hall behind jim
+    show hall behind jim at Position(xpos=0.5, xanchor=0.5, ypos=21,
+ yanchor=0)
 
     show ocular crt with dissolve
 
@@ -1605,7 +1607,8 @@ label nothing:
 
     "Even as I make my way toward the door, I keep a hold on Creator’s shoulders in order to keep stable."
 
-    # show bg hall behind jim
+    show hall behind jim at Position(xpos=0.5, xanchor=0.5, ypos=21,
+ yanchor=0)
 
     show ocular crt with dissolve
 
