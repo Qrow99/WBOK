@@ -17,12 +17,14 @@ define ue = Character("???", color="99ccff")
 # The game starts here.
 
 label start:
+    stop music
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
     scene bg thing
+
 
     define dissolve1 = Dissolve(5.0, alpha=False, time_warp=None)
 
@@ -172,11 +174,18 @@ yanchor=0)
     # remember to get rid of it later
     # jump blahblahblah
 
+    play ambient "sfx_karen_bootup_start.ogg"
+    queue ambient "sfx_karen_bootup_loop.ogg" loop
+
     "{b}BOOTING..."
 
+
+    play sound "sfx_karen_deactivate.ogg"
     hide sleep online
 
     "{b}SLEEP MODE: DEACTIVATED."
+
+    play sound "sfx_karen_activate.ogg"
 
     show wifi at Position(xpos=1095, xanchor=0, ypos=394,
  yanchor=0)
@@ -187,12 +196,14 @@ yanchor=0)
 
     "{b}WIRELESS FIDELITY: ENABLED."
 
+    play sound "sfx_karen_activate.ogg"
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
 
 
     "{b}SPEECH TO TEXT: ENABLED."
 
+    play sound "sfx_karen_deactivate.ogg"
     "{b}OCULAR LENSES: DISCONNECTED."
 
 
@@ -210,6 +221,7 @@ yanchor=0)
     u "{color=#f388b8}''Oh! It looks like your oculars didn't connect properly...''"
     u "{color=#f388b8}''Here we go - this should do it!''"
 
+    play sound "sfx_karen_activate.ogg"
     "{b}OCULAR LENSES: CONNECTED."
 
     play music "WBoK_music1_v3.ogg" loop fadein 10.0
@@ -344,6 +356,8 @@ yanchor=0)
     j "{color=#f388b8}''It is, but it saved me the trouble of hand-coding an entire dictionary
     into your system. Why don’t you give it a try?''"
 
+    play sound "sfx_karen_activate.ogg"
+
     # show fake search engine
     show online se
 
@@ -355,7 +369,10 @@ yanchor=0)
     but I did as I was told and looked up ‘semantics.’
     """
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     # show the searching gif
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
@@ -368,9 +385,14 @@ yanchor=0)
     the window disappeared.
     """
 
+    play sound "DING.ogg"
+
     # hide the searching gif
+
     show online online
+
     hide searching
+
     # TOASTER NOISE! :D
 
     k "''Semantics. Noun. The linguistic study of meanings.''"
@@ -462,10 +484,14 @@ yanchor=0)
 
     k "''You appear to be forgetting quite a lot.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "I decided to scour the internet for potential memory loss solutions."
+
+    play sound "sfx_karen_activate.ogg"
 
     # show a pill ad here
     show online pills here
@@ -490,6 +516,8 @@ yanchor=0)
     show jim happy
 
     j "{color=#f388b8}''Why don't I tell you about the test?''"
+
+    play sound "sfx_karen_deactivate.ogg"
 
     show online online
 
@@ -527,6 +555,8 @@ yanchor=0)
 
     k "''I understand. There is much I need to learn in a short time.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
@@ -557,6 +587,7 @@ yanchor=0)
     gratitude."
 
     hide searching
+    play sound "sfx_karen_deactivate.ogg"
 
     k "''Thank you, Creator.''"
 
@@ -592,6 +623,8 @@ yanchor=0)
 
     "I am unfamiliar with the concept of nicknames."
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
@@ -599,6 +632,8 @@ yanchor=0)
     researching them."
 
     hide searching
+
+    play sound "DING.ogg"
 
     "Nickname. Noun. A familiar or humorous title given to a person or thing as
     an addition or replacement to their true name."
@@ -615,11 +650,13 @@ yanchor=0)
 
     j "{color=#f388b8}''Oh, hey Nico! Come see for yourself!''"
 
+    play sound "sfx_room_footsteps_enter.ogg"
+
     show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
 
-    show nico neutral behind ocular at Position(xpos=400, xanchor=0,
-    ypos=110, yanchor=0) with dissolve
+    show nico neutral behind ocular at Position(xpos=300, xanchor=0,
+    ypos=84, yanchor=0) with dissolve
 
     "A hunched over boy clutching his own body approaches. As he does so, he
     carefully moves his eyes up and down in my direction, eventually stopping
@@ -657,6 +694,8 @@ yanchor=0) with ease
 
     n "{color=#ff2b2b}''I'd suggest some alterations, b-b-b-but I know you wouldn't listen
     to me.''"
+
+    play sound "sfx_room_footsteps_exit.ogg"
 
     hide nico with dissolve
 
@@ -735,6 +774,8 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''...about twenty seven seconds.''"
 
+    play sound "sfx_karen_deactivate.ogg"
+
     hide wifi
 
     hide online online
@@ -751,6 +792,7 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''Don't want to make the powering down process too jarring, right?''"
 
+
     stop music fadeout 2.0
     show ocular offline with dissolve
 
@@ -760,11 +802,19 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''Good night, Karen.''"
 
+    play sound "sfx_karen_deactivate.ogg"
+
     hide stt
 
     "{b}SPEECH TO TEXT: DISCONNECTED."
 
+    stop ambient fadeout 2.0
+
     k "''Creator...?''"
+
+    play music "sfx_karen_sleep_loop.ogg" loop fadein 5.0
+
+    play sound "sfx_karen_activate.ogg"
 
     show sleep online at Position(xpos=54, xanchor=0, ypos=47,
  yanchor=0)

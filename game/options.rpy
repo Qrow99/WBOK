@@ -61,7 +61,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "sfx_karen_bootup_loop.ogg"
 
 
 ## Transitions #################################################################
@@ -211,3 +211,8 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+init -1 python:
+    renpy.music.register_channel("ambient", mixer= "music", loop=True)
+    renpy.music.register_channel("rang", mixer= "music", loop=True)
+    renpy.music.register_channel("bp", mixer= "sfx", loop=False)

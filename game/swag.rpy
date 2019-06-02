@@ -2,6 +2,12 @@
 
 label chapter3:
 
+    stop music fadeout 2.0
+
+    play ambient "sfx_karen_bootup_start.ogg"
+    queue ambient "sfx_karen_bootup_loop.ogg" loop
+
+
     hide chapter end with fade
 
     "{b}BOOTING..."
@@ -9,6 +15,8 @@ label chapter3:
     hide sleep online
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0)
+
+    play sound "sfx_karen_deactivate.ogg"
 
     "{b}SLEEP MODE: DEACTIVATED."
 
@@ -19,10 +27,14 @@ yanchor=0)
     show jimcpu online at Position(xpos=1079, xanchor=0, ypos=558,
  yanchor=0)
 
+    play sound "sfx_karen_activate.ogg"
+
     "{b}WIRELESS FIDELITY: ENABLED."
 
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
+
+    play sound "sfx_karen_activate.ogg"
 
     "{b}SPEECH TO TEXT: ENABLED."
 
@@ -56,9 +68,13 @@ yanchor=0)
 
     j "{color=#f388b8}''Actually yes! I’m glad you asked, because today we have something very special to work on...''"
 
+    play sound "sfx_room_door_open.ogg"
+
     ue "{color=#99ccff}''JIM MACGUFFIN WHAT THE HELL IS WRONG WITH YOU!?''"
 
     "Suddenly, an angry girl burst into the room, loudly insulting Creator."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     # erika comes in
     show jim neutral at Position(xpos=673, xanchor=0, ypos=115,
@@ -118,17 +134,23 @@ yanchor=0) with ease
 
     e "{color=#99ccff}''Are we looking at the same thing right now? Because I don’t see anything ‘morally ambiguous’ about this situation we have here!''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     # whatever the hell we're doing for this, put it here
     show regret at Position(xpos=1079, xanchor=0, ypos=558,
 yanchor=0)
 
     "It has occurred to me that I have never actually looked into my own schematics."
 
+    play bp "sfx_karen_activate.ogg"
+
     # throw in a blueprint sketch
     show blueprint at Position(xpos=1079, xanchor=0, ypos=558,
 yanchor=0)
 
     "According to the rough blueprints left on Creator’s hard drive, I appear to be a humanoid of some sort, but I am unable to decipher the accompanying text."
+
+    play sound "sfx_karen_deactivate.ogg"
 
     # then get rid of it all
     hide blueprint
@@ -150,9 +172,11 @@ yanchor=0)
 
     j "{color=#f388b8}''Alright. In that case, I’ll be right back.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
-    show erika angery at Position(xpos=485, xanchor=0, ypos=84,
+    show erika angery at Position(xpos=460, xanchor=0, ypos=84,
 yanchor=0) with ease
 
     "Calmly, though clearly disgruntled, Creator left the room."
@@ -181,6 +205,8 @@ yanchor=0) with ease
 
     "The girl moved her face extremely close to my oculars and began rambling once more."
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show erika pissed
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
@@ -188,6 +214,8 @@ yanchor=0)
     e "{color=#99ccff}''This isn’t some kind of joke, you know! I know you’re watching me through your weird robot puppet, you weirdo!"
 
     hide searching
+
+    play sound "DING.ogg"
 
     "Puppet. Noun. A person, party, or state under the control of a separate person, party, or power."
 
@@ -366,11 +394,15 @@ yanchor=0)
 
     show erika angery
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     e "{color=#99ccff}''Well that’s just basic human sympathy, isn’t it? Or, maybe empathy.
     One of those! Or both!''"
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -522,6 +554,8 @@ yanchor=0)
 
     "At that moment, Creator reentered the room, holding in his arms a small stack of folders and loose papers, looking both exhausted and exasperated."
 
+    play sound "sfx_room_footsteps_enter.ogg"
+
     show erika inquire behind ocular at Position(xpos=300, xanchor=0,
 ypos=84, yanchor=0) with ease
 
@@ -560,6 +594,8 @@ yanchor=0) with dissolve
     """
     Without a word more, Erika took a casual strut out the door.
     """
+
+    play sound "sfx_room_footsteps_exit.ogg"
 
     hide erika with dissolve
 
@@ -614,12 +650,16 @@ yanchor=0) with ease
 
     j "{color=#f388b8}''I don’t really know...''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     j "{color=#f388b8}''I guess I’m saying... that I’m proud of you, Karen. I’m very impressed.''"
 
     hide searching
+
+    play sound "DING.ogg"
 
     "Proud. Adjective. Feeling deep pleasure or satisfaction with the achievements of oneself or another."
 
@@ -634,6 +674,8 @@ yanchor=0)
     hide online online
 
     hide jimcpu online
+
+    play sound "sfx_karen_deactivate.ogg"
 
     "{b}WIRELESS FIDELITY: DEACTIVATED."
 
@@ -665,9 +707,17 @@ yanchor=0)
 
     hide stt
 
+    play sound "sfx_karen_deactivate.ogg"
+
     "{b}SPEECH TO TEXT: DISCONNECTED."
 
+    stop ambient fadeout 2.0
+
     k "''Creator...?''"
+
+    play music "sfx_karen_sleep_loop.ogg" loop fadein 5.0
+
+    play sound "sfx_karen_activate.ogg"
 
     show sleep online at Position(xpos=54, xanchor=0, ypos=47,
  yanchor=0)

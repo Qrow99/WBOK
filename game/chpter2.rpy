@@ -3,6 +3,11 @@
 
 label chapter2:
 
+    stop music fadeout 2.0
+
+    play ambient "sfx_karen_bootup_start.ogg"
+    queue ambient "sfx_karen_bootup_loop.ogg" loop
+
     hide chapter end with fade
 
     "{b}BOOTING..."
@@ -10,6 +15,8 @@ label chapter2:
     hide sleep online
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0)
+
+    play sound "sfx_karen_deactivate.ogg"
 
     "{b}SLEEP MODE: DEACTIVATED."
 
@@ -20,10 +27,14 @@ yanchor=0)
     show jimcpu online at Position(xpos=1079, xanchor=0, ypos=558,
  yanchor=0)
 
+    play sound "sfx_karen_activate.ogg"
+
     "{b}WIRELESS FIDELITY: ENABLED."
 
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
+
+    play sound "sfx_karen_activate.ogg"
 
     "{b}SPEECH TO TEXT: ENABLED."
 
@@ -60,10 +71,14 @@ yanchor=0)
     j "{color=#f388b8}''Oh, hopefully this isn't too alarming for you, but
     we're going to be having a special guest in the lab today.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "A special guest?"
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -98,6 +113,8 @@ yanchor=0)
     show jim happy
 
     j "{color=#f388b8}''Well, his name is...''"
+
+    play sound "sfx_room_door_open.ogg"
 
     show jim happy at Position(xpos=673, xanchor=0, ypos=115,
 yanchor=0) with ease
@@ -144,6 +161,8 @@ ypos=84, yanchor=0) with dissolve
 
     j "{color=#f388b8}''Then just give it your best shot.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
@@ -153,6 +172,8 @@ yanchor=0)
 
     "My current lack of movable limbs indicate that some adjustments
     must be made."
+
+    play sound "sfx_karen_deactivate.ogg"
 
     hide searching
 
@@ -203,12 +224,16 @@ yanchor=0)
 
     show rick embarassed
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "From seemingly out of nowhere, Rick produced a notepad, pen, and hi-tech
     camera. A quick browse of popular online markets value the equipment at
     upwards of 500 USD."
+
+    play sound "sfx_karen_deactivate.ogg"
 
     hide searching
 
@@ -341,16 +366,22 @@ yanchor=0)
     j "{color=#f388b8}''In all honesty, I probably wouldn’t put her overall intelligence too
     far above grade school level, even if she is a fast learner.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "As Creator talked, I decided to research the concept of IQ."
+
+    play sound "sfx_karen_activate.ogg"
 
     show online smrt
     hide searching
 
     "There are many tests which claim to measure IQ online. Taking these
     would likely prove beneficial for the task at hand."
+
+    play sound "sfx_karen_deactivate.ogg"
 
     show online online
 
@@ -404,10 +435,14 @@ yanchor=0)
     r "{color=#FC983B}''If you have any opinions on anything, from people to politics to
     musical genres, I would be quite interested in hearing them.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "Values? Beliefs? Clearly I have not given these things enough thought..."
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -449,6 +484,7 @@ yanchor=0)
     show rick think
 
     # flash screen and play siren sound
+    play rang "RING.ogg" loop
     hide ocular
     show weewoo at Position(xpos=0.5, xanchor=0.5, ypos=21,
  yanchor=0)
@@ -458,6 +494,8 @@ yanchor=0)
 
     "Following shortly, a voice came on from the intercom."
 
+    play sound "DONG.ogg"
+
     i """
     {color=#ffffff}''Attention students and faculty, this is not a drill. A fire has been
     started in the girls’ locker room.''
@@ -466,6 +504,8 @@ yanchor=0)
     fashion, and wait on the football field for the fire department to arrive.
     Thank you.''
     """
+
+    play sound "DONG.ogg"
 
     j "{color=#f388b8}''Ah jeez not again...''"
 
@@ -511,6 +551,9 @@ yanchor=0)
     show jim neutral
 
     j "{color=#f388b8}''Um... okay then. If you insist.''"
+
+    play sound "sfx_room_footsteps_exit.ogg"
+    stop rang fadeout 5.0
 
     # stop flashing and siren
     show ocular crt at Position(xpos=0.5, xanchor=0.5, ypos=21,
@@ -603,10 +646,14 @@ yanchor=0) with ease
 
     r "{color=#FC983B}{color=#FC983B}''That... was meant to be a joke.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "It seems I have made a social error of some kind."
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -646,6 +693,8 @@ yanchor=0)
 
     r "{color=#FC983B}''An unusprising response.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
@@ -653,6 +702,8 @@ yanchor=0)
     connection to other living creatures, keeping them as pets and even
     trying to protect endangered species on occasion, I wanted to know if
     you felt any similar comradery with machinery.''"
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -751,16 +802,21 @@ yanchor=0)
     "I was about to say that I didn’t understand, but my thought was
     preemptively interrupted by a second announcement from the intercom."
 
+    play sound "DONG.ogg"
+
     i """
     {color=#ffffff}''Attention students and faculty, the fire has been
     terminated. You are now free to return to campus.''
 
-    {color=#ffffff}''And in the future, please refrain from bringing military
-    flares into the locker rooms. Thank you.''
+    {color=#ffffff}''And in the future, please refrain from bringing Chinese fireworks into the locker rooms. Thank you.''
     """
+
+    play sound "DONG.ogg"
 
     "The intercom stopped, and Rick attempted to speak again. However, before
     he could get more than a few words out, Creator rushed into the room."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show rick neutral behind ocular at Position(xpos=300, xanchor=0,
 ypos=84, yanchor=0) with ease
@@ -846,6 +902,8 @@ yanchor=0) with dissolve
 
     r "{color=#FC983B}''Mister MacGuffin, Miss Karen, it was a pleasure. Goodbye.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide rick with dissolve
 
     show jim embarassed behind ocular at Position(xpos=527, xanchor=0, ypos=115,
@@ -878,6 +936,8 @@ yanchor=0) with ease
     show jim happy
 
     j "{color=#f388b8}''You have? I'd love to hear them!''"
+
+    play sound "sfx_karen_deactivate.ogg"
 
     hide wifi
 
@@ -920,9 +980,17 @@ yanchor=0) with ease
 
     hide stt
 
+    play sound "sfx_karen_deactivate.ogg"
+
     "{b}SPEECH TO TEXT: DISCONNECTED."
 
+    stop ambient fadeout 2.0
+
     k "''I like him...''"
+
+    play music "sfx_karen_sleep_loop.ogg" loop fadein 5.0
+
+    play sound "sfx_karen_activate.ogg"
 
     show sleep online at Position(xpos=54, xanchor=0, ypos=47,
  yanchor=0)

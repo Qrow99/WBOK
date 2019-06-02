@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/thelastone.rpy", line 1251: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "
+File "game/script.rpy", line 37: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    image ocular crt = "ocular crt.png"
+    ^
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Thu May 30 19:58:12 2019
+Sun Jun 02 01:08:01 2019

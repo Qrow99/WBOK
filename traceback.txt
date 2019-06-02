@@ -1,82 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'gui/textbox.png'>:
-  File "game/thelastone.rpy", line 1282, in script
-    "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
-  File "game/thelastone.rpy", line 1282, in script
-    "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
-IOError: Couldn't find file 'gui/textbox.png'.
+While running game code:
+  File "game/script.rpy", line 177, in script
+    play ambient "sfx_karen_bootup_start.ogg"
+  File "renpy/common/000statements.rpy", line 125, in execute_play_music
+    if_changed=p.get("if_changed", False))
+Exception: Audio channel u'ambient' is unknown.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\bootstrap.py", line 313, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\main.py", line 525, in main
-    run(restart)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\main.py", line 139, in run
-    renpy.execution.run_context(True)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\execution.py", line 892, in run_context
-    context.run()
-  File "game/thelastone.rpy", line 1282, in script
-    "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
-  File "game/thelastone.rpy", line 1282, in script
-    "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\ast.py", line 694, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\exports.py", line 1322, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 1127, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 842, in do_display
-    **display_args)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\character.py", line 591, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\core.py", line 2690, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\core.py", line 3174, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\core.py", line 2086, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 516, in renpy.display.render.render_screen
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\screen.py", line 669, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\layout.py", line 1152, in render
-    back = render(style.background, bw, bh, st, at)
-  File "render.pyx", line 151, in renpy.display.render.render
-  File "render.pyx", line 244, in renpy.display.render.render
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\im.py", line 580, in render
-    return cache.get(self, render=True)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\im.py", line 266, in get
-    surf = image.load()
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\display\im.py", line 625, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\loader.py", line 576, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gui/textbox.png'.
+  File "game/script.rpy", line 177, in script
+    play ambient "sfx_karen_bootup_start.ogg"
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\ast.py", line 1911, in execute
+    self.call("execute")
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\ast.py", line 1899, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\statements.py", line 220, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 125, in execute_play_music
+    if_changed=p.get("if_changed", False))
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\audio\music.py", line 91, in play
+    c = get_channel(channel)
+  File "C:\Users\Cornelius\Desktop\renpy-7.2.2-sdk\renpy\audio\audio.py", line 784, in get_channel
+    raise Exception("Audio channel %r is unknown." % name)
+Exception: Audio channel u'ambient' is unknown.
 
 Windows-8-6.2.9200
 Ren'Py 7.2.2.491
 Get it Right the First Time 0.7
-Fri May 31 21:20:03 2019
+Sun Jun 02 01:11:20 2019
