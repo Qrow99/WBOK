@@ -3,6 +3,11 @@
 
 label chapter5:
 
+    stop music fadeout 2.0
+
+    play ambient "sfx_karen_bootup_start.ogg"
+    queue ambient "sfx_karen_bootup_loop.ogg" loop
+
     $ E1 = 0
     $ E2 = 0
     $ E3 = 0
@@ -12,6 +17,7 @@ label chapter5:
     "{b}BOOTING..."
 
     hide sleep online
+    play sound "sfx_karen_deactivate.ogg"
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0)
 
@@ -24,10 +30,14 @@ yanchor=0)
     show jimcpu online at Position(xpos=1079, xanchor=0, ypos=558,
  yanchor=0)
 
+    play sound "sfx_karen_activate.ogg"
+
     "{b}WIRELESS FIDELITY: ENABLED."
 
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
+
+    play sound "sfx_karen_activate.ogg"
 
     "{b}SPEECH TO TEXT: ENABLED."
 
@@ -57,10 +67,14 @@ yanchor=0)
 
     j "{color=#f388b8}''Yeah, in retrospect I should've asked Nico to get here before you woke up...''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     j "{color=#f388b8}''I'm sorry if I made you worry.''"
+
+    play sound "DING.ogg"
 
     hide searching
 
@@ -84,6 +98,8 @@ yanchor=0)
 
     j "{color=#f388b8}''At least, you will if it works.''"
     j "{color=#f388b8}''I just have to activate some things and then...''"
+
+    play sound "sfx_karen_activate.ogg"
 
     show ns online at Position(xpos=1095, xanchor=0, ypos=47,
  yanchor=0)
@@ -150,9 +166,13 @@ yanchor=0)
     j "{color=#f388b8}''Um, thanks.''"
     j "{color=#f388b8}''On that note, I'm going to go grab the first section of your test.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
     "Creator left and quickly returned, now holding a thin pack of papers."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show jim happy behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
@@ -211,10 +231,14 @@ yanchor=0) with dissolve
 
     j "{color=#f388b8}''Be right back!''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
     "Creator departs, and I am once again left alone."
     "This time, however, the silence hardly lasts, as another figure soon enters the room."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show rick neutral behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
@@ -358,6 +382,8 @@ label R2:
 
     r "{color=#FC983B}''Alright, I will oblige. If only because you have done much for me.''"
 
+    play sound "sfx_room_leather_snap.ogg"
+
     "Deftly, Rick detached the strap keeping my hands in place. He then proceeded to extend his hand and grip mine."
     "His hand is warm, and his grip is firm. As he moves his forearm, I attempt to follow, but end up complicating the procedure."
     "Clearly, I will need more practice with this maneuver."
@@ -414,9 +440,13 @@ label R3:
 label FRICK:
     k "''Goodbye, Rick Morrison.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide rick with dissolve
 
     "With heavy steps and not a word more, Rick Morrison left the room."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
@@ -467,10 +497,14 @@ yanchor=0) with dissolve
 
     j "{color=#f388b8}''Anyways, you know the drill. Be right back!''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
     "Once again, Creator exits the room, papers in hand."
     "Only seconds later, another figure comes to take his place."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show erika happy behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
@@ -479,12 +513,7 @@ yanchor=0) with dissolve
 
     k "''Hello, Erika. What brings you here today?''"
 
-    # Hey here's a quick idea
-    # Maybe if Karen fails the interaction with Rick, Erika instead says "what's up?"
-    # And Karen responds with something like "{color=#99ccff}the ceiling" and they have an awkward laugh
-    # It's funny, but it also indicates that Karen doesn't fully understand the language
-
-    e "{color=#99ccff}''Just wanted to check up on you and make sure everything was all good here.''"
+    e "{color=#99ccff}''Well cheerleading practice just ended, and I wanted to check up on you and make sure everything was all good here.''"
 
     k "''I appreciate it.''"
 
@@ -754,6 +783,9 @@ label E3:
     e "{color=#99ccff}''Why didn't you ask me sooner?''"
 
     " Before I could make any further comment, Erika began to work away at the straps with her knife."
+
+    play sound "sfx_room_leather_snap.ogg"
+
     "She easily cut through one, but before she could put more than a cut in another, a voice faintly made its way into the room."
 
     j "{color=#f388b8}''Karen? Is everything okay in there? What’s that noise?''"
@@ -782,9 +814,14 @@ label E3:
 
 
 label FECK:
+
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide erika with dissolve
 
     "Shortly after Erika’s departure, Creator returned with the next section of the test."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
 yanchor=0) with dissolve
@@ -820,12 +857,16 @@ yanchor=0) with dissolve
     j "{color=#f388b8}''I guess all that's left for me to do is grade it, so...''"
     j "{color=#f388b8}''I'll be back in a minute.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
     "For what appeared to be the final time, Creator left the room."
     "This time, little time was left to let a silence set in before it was immediately broken by the sound of erratic footsteps."
 
-    show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+    play sound "sfx_room_footsteps_enter.ogg"
+
+    show nico unsure behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
 
     n "{color=#ff2b2b}''...''"
@@ -957,6 +998,8 @@ label N1:
 
     show nico upset
 
+    play sound "sfx_room_leather_snap.ogg"
+
     "He then proceeded to grasp one of my binds and, in a singular motion, tore it off with his bare hands."
 
     k "''Nico, I do not understand, why did you...''"
@@ -1048,12 +1091,14 @@ label N2:
     n "{color=#ff2b2b}''So you're really that curious, huh?''"
     n "{color=#ff2b2b}''...''"
 
-    show nico
+    show nico angery
 
     n "{color=#ff2b2b}''Alright, fine! I submit! Just stop asking me questions, okay? No more after this!''"
 
     k "''Fine. No more questions.''"
     k "''Just please, Nico. What is my appearance?''"
+
+    show nico gross
 
     n "{color=#ff2b2b}''Okay... Alright. Fine.''"
 
@@ -1149,6 +1194,9 @@ label N3:
 
 
 label NYEH:
+
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide nico with dissolve
 
     k "''...''"
@@ -1172,7 +1220,11 @@ label BREAKOUT:
     The straps around my limbs... most of them have been cut or unfastened by those who came to visit me.
 
     And the weapon Nico gifted to me might just be sharp enough to break the last one. Now that my hands are free, I may be able to...
+    """
 
+    play sound "sfx_room_leather_snap.ogg"
+
+    """
     I remove the sharp wooden object from my sleeve, where Nico had left it. It takes a great deal of aggressive cutting, but eventually the strap around my neck comes loose.
 
     I can freely move around the lab.

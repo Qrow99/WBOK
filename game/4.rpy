@@ -2,11 +2,17 @@
 
 label chapter4:
 
+    stop music fadeout 2.0
+
+    play ambient "sfx_karen_bootup_start.ogg"
+    queue ambient "sfx_karen_bootup_loop.ogg" loop
+
     hide chapter end with fade
 
     "{b}BOOTING..."
 
     hide sleep online
+    play sound "sfx_karen_deactivate.ogg"
 
     "{b}SLEEP MODE: DEACTIVATED."
 
@@ -17,10 +23,14 @@ label chapter4:
     show jimcpu online at Position(xpos=1079, xanchor=0, ypos=558,
  yanchor=0)
 
+    play sound "sfx_karen_activate.ogg"
+
     "{b}WIRELESS FIDELITY: ENABLED."
 
     show stt at Position(xpos=54, xanchor=0, ypos=394,
 yanchor=0)
+
+    play sound "sfx_karen_activate.ogg"
 
     "{b}SPEECH TO TEXT: ENABLED."
 
@@ -57,13 +67,17 @@ yanchor=0)
     It is as if time is progressing at a slower rate than it has in past days. I know, of course, that this is logically impossible, but I still can’t entirely move myself from the idea that...
     """
 
+    play sound "sfx_room_door_open.ogg"
+
     n "{color=#ff2b2b}''HEY! K.A.R. 3! WAKE UP!''"
 
     "Interrupting my thought is Nico, who appears flustered."
 
+    play sound "sfx_room_footsteps_enter.ogg"
+
     play music "WBoK_music1_v3.ogg" loop fadein 5.0
 
-    show nico unsure behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+    show nico unsure behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
 
     n "{color=#ff2b2b}''Are you awake yet? Do I have to p-p-p-press something or...''"
@@ -189,14 +203,20 @@ yanchor=0) with dissolve
 
     n "{color=#ff2b2b}''Although, that actually reminds me, I wanted to g-g-g-give you something.''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide nico with dissolve
 
     "Within a few seconds, he had left and returned. Now, though, he was clutching something tightly in his hand."
 
-    show nico neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
+    play sound "sfx_room_footsteps_enter.ogg"
+
+    show nico neutral behind ocular at Position(xpos=485, xanchor=0, ypos=84,
 yanchor=0) with dissolve
 
     n "{color=#ff2b2b}''I m-m-m-made this for you, since you may find yourself in the real world no less than 24 hours from now.''"
+
+    play sound "DANANANA.ogg"
 
     # put an image of the sharpened jenga block and the little "du nu nu nuuuuuuuu!" se here
     show wannasee at Position(xpos=1079, xanchor=0, ypos=558,
@@ -214,10 +234,14 @@ yanchor=0)
 
     k  "''I suppose not.''"
 
+    play sound "sfx_karen_searching_loop.ogg" loop
+
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
     "The item appears to be cheap. It likely originates from a children’s board game, or something similar."
+
+    play sound "sfx_karen_deactivate.ogg"
 
     hide searching
     hide wannasee
@@ -472,6 +496,8 @@ yanchor=0)
 
     hide jimcpu online
 
+    play sound "sfx_karen_deactivate.ogg"
+
     "{b}WIRELESS FIDELITY: DEACTIVATED."
 
     k  "''Nico, I am beginning to shut down.''"
@@ -505,9 +531,15 @@ yanchor=0)
 
     hide stt
 
+    play sound "sfx_karen_deactivate.ogg"
+
     "{b}SPEECH TO TEXT: DISCONNECTED."
 
     k "''Nico...''"
+
+    play music "sfx_karen_sleep_loop.ogg" loop fadein 5.0
+
+    play sound "sfx_karen_activate.ogg"
 
     show sleep online at Position(xpos=54, xanchor=0, ypos=47,
  yanchor=0)
