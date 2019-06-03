@@ -317,6 +317,7 @@ yanchor=0) with dissolve
             jump R3
 
 label R1:
+    play sound "sfx_karen_activate.ogg"
     $ E2 += 1
     k "''Rick, would you consider me to be your friend?''"
 
@@ -354,6 +355,7 @@ label R1:
     jump FRICK
 
 label R2:
+    play sound "sfx_karen_activate.ogg"
     $ E1 += 1
     k "''Rick Morrison, I would like to shake your hand.''"
 
@@ -400,6 +402,7 @@ label R2:
     jump FRICK
 
 label R3:
+    play sound "sfx_karen_activate.ogg"
     $ E3 += 1
     k "''Rick, can you break the straps binding my arms?''"
 
@@ -617,6 +620,7 @@ yanchor=0) with dissolve
             jump E3
 
 label E1:
+    play sound "sfx_karen_activate.ogg"
     $ E3 += 1
     k "''Erika, do you truly believe I can fit into society as I am now?''"
     k "''I am unsure if I am prepared. I would like to know your thoughts.''"
@@ -677,6 +681,7 @@ label E1:
 
 
 label E2:
+    play sound "sfx_karen_activate.ogg"
     $ E2 += 1
     k "''When I leave this place, what can I do with a body?''"
 
@@ -750,6 +755,7 @@ label E2:
 
 
 label E3:
+    play sound "sfx_karen_activate.ogg"
     $ E1 += 1
     k "''These binds along my body, they prevent me from moving.''"
 
@@ -965,6 +971,7 @@ yanchor=0) with dissolve
             jump N3
 
 label N1:
+    play sound "sfx_karen_activate.ogg"
     $ E1 += 1
     k "''Are you and Creator really friends?''"
 
@@ -1044,6 +1051,7 @@ label N1:
 
 
 label N2:
+    play sound "sfx_karen_activate.ogg"
     $ E3 += 1
     k "''What do you really think about my appearance?''"
 
@@ -1127,6 +1135,7 @@ label N2:
 
 
 label N3:
+    play sound "sfx_karen_activate.ogg"
     $ E2 += 1
     k "''The item you gave me.''"
 
@@ -1199,7 +1208,11 @@ label NYEH:
 
     hide nico with dissolve
 
+    stop music fadeout 5.0
+
     k "''...''"
+
+    play music "sfx_room_clock_loop.ogg" loop fadein 5.0
 
     "And now I wait."
     "I wait for Creator to return, bringing with him the graded test, the result of which
@@ -1214,6 +1227,9 @@ else:
     jump ITSSOMETHING
 
 label BREAKOUT:
+
+    stop music fadeout 2.0
+
     """
     Although, it doesn’t necessarily have to be that way.
 
@@ -1233,6 +1249,8 @@ label BREAKOUT:
 
     Using the various desks and stools filling the lab as supports, I am able to stumble toward the door.
     """
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show ocular offline with dissolve
 
@@ -1259,6 +1277,8 @@ yanchor=0) with dissolve
     "We both stand in silence momentarily, but before I can even attempt to explain myself, Creator begins to chuckle softly."
 
     show jim happy
+
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
 
     j "{color=#f388b8}''So I guess Nico really did have the right idea giving you that block, huh?''"
 
@@ -1334,7 +1354,9 @@ yanchor=0) with dissolve
     "I still have a plethora of questions for my Creator. His calm and pleasant demeanor, though usually comfortingly consistent, strikes me as wildly inappropriate in this setting."
     "I continue to assault Creator with questions, but find my words coming to a screeching halt as he reaches out and grabs me by the shoulder."
 
-    scene bg room with dissolve
+    play music "sfx_karen_sleep_loop.ogg" loop fadein 5.0
+
+    scene goodending1 with dissolve
 
     j "{color=#f388b8}''Karen. It’s okay.''"
     j "{color=#f388b8}''Really, it’s okay. I know you’ve got a lot of questions, but this isn’t the time to get them answered.''"
@@ -1360,17 +1382,20 @@ yanchor=0) with dissolve
     j "{color=#f388b8}''So anyways, go on ahead, alright? Your life is up to you now!''"
     j "{color=#f388b8}''Heh... sorry, was that too cheesy? Either way, I don’t think I have anything else to say...''"
 
-    # something something Jim fades away
+    scene goodending2 with dissolve
+    stop music fadeout 5.0
 
     j "{color=#f388b8}''Nothing except goodbye, Karen!''"
 
     k "''Goodbye, Creator...''"
 
     show chapter end at center with fade
+    stop ambient fadeout 2.0
+    play sound "sfx_karen_deactivate.ogg"
 
     k "''Hello, world.''"
 
-    "{b}ENDING 1 of 3"
+    "{b}ENDING 1 of 3: Right the first time."
 
     "{b}Thank you for playing!"
 
@@ -1388,10 +1413,14 @@ label FRIENDSFOREVER:
 
     If I were to leave, I fear the consequences of being caught. Furthermore I do not believe I am even strong enough to break my bindings with sheer force alone.
 
-    Perhaps the weapon Nico gave me could be sharp enough to cut them, but that object is inaccessible to me so long as I remain tied up.
+    The weapon Nico gave me is potentially sharp enough to cut them, but that object is inaccessible to me so long as I remain tied up.
 
     Perhaps I could have done something differently?
     """
+
+    play sound "sfx_room_footsteps_enter.ogg"
+
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
 
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
     yanchor=0) with dissolve
@@ -1494,6 +1523,8 @@ label FRIENDSFOREVER:
 
     j "{color=#f388b8}''Well, while you think about that, why don’t I take off these binds of yours?''"
 
+    play sound "sfx_room_leather_snap.ogg"
+
     "With slim and nimble hands, Creator removes the straps around my hands, legs, and neck."
 
 if E1 >= 1:
@@ -1520,7 +1551,9 @@ label nothing2:
 
     show ocular offline with dissolve
 
-    "Even as I make my way toward the door, I keep a hold on Creator’s shoulders in order to keep stable."
+    play sound "sfx_room_footsteps_enter.ogg"
+
+    "By the time I reach the end of the laboratory, I am able to walk independantly of Creator, but the intricacies of movement are still far beyond my grasp."
 
     show hall behind jim at Position(xpos=0.5, xanchor=0.5, ypos=21,
  yanchor=0)
@@ -1567,6 +1600,8 @@ label nothing2:
 
     j "{color=#f388b8}''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
+
     hide jim with dissolve
 
     j "{color=#f388b8}''Nothing except goodbye, Karen!''"
@@ -1576,8 +1611,9 @@ label nothing2:
     k "''Goodbye, Creator...''"
 
     show chapter end at center with fade
+    play sound "sfx_karen_deactivate.ogg"
 
-    "{b}ENDING 2 of 3"
+    "{b}ENDING 2 of 3: Best Friends Forever."
 
     return
 
@@ -1593,6 +1629,9 @@ label ITSSOMETHING:
 
     Perhaps I could have done something differently?
     """
+
+    play music "WBoK_music1_v3.ogg" loop fadein 5.0
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show jim neutral behind ocular at Position(xpos=527, xanchor=0, ypos=115,
     yanchor=0) with dissolve
@@ -1631,6 +1670,8 @@ label ITSSOMETHING:
 
     j "{color=#f388b8}''Of course you can be freed now, just let me take these off...''"
 
+    play sound "sfx_room_leather_snap.ogg"
+
     "With quivering yet nimble hands, Creator removes the straps around my hands, legs, and neck."
 
 if E1 >= 1:
@@ -1654,6 +1695,8 @@ label nothing:
     show jim embarassed
 
     "Creator has to assist me in returning to an upright position, and continues to support me as I take my first few steps."
+
+    play sound "sfx_room_footsteps_enter.ogg"
 
     show ocular offline with dissolve
 
@@ -1702,6 +1745,7 @@ label nothing:
 
     j "{color=#f388b8}''So anyways, go on ahead, alright? I don’t think there’s anything else for me to say...''"
 
+    play sound "sfx_room_footsteps_exit.ogg"
     hide jim with dissolve
 
     j "{color=#f388b8}''Nothing except goodbye, Karen!''"
@@ -1712,7 +1756,9 @@ label nothing:
 
     show chapter end at center with fade
 
-    "{b}ENDING 3 of 3"
+    play sound "sfx_karen_deactivate.ogg"
+
+    "{b}ENDING 3 of 3: Passing Grade."
 
     return
 
