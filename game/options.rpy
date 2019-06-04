@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "1.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -46,7 +46,7 @@ Audio: Jack Bueermann
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Testorputsomestupidmemeinthere"
+define build.name = "Get_it_Right_The_First_Time"
 
 
 ## Sounds and music ############################################################
