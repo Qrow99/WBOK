@@ -211,7 +211,7 @@ yanchor=0) with ease
     show searching at Position(xpos=21, xanchor=0, ypos=558,
 yanchor=0)
 
-    e "{color=#99ccff}''This isn’t some kind of joke, you know! I know you’re watching me through your weird robot puppet, you weirdo!"
+    e "{color=#99ccff}''This isn’t some kind of joke, you know! I know you’re watching me through your weird robot puppet, you weirdo!''"
 
     hide searching
 
@@ -456,7 +456,8 @@ yanchor=0)
     {color=#99ccff}''I totally forgot about the fire yesterday!
     I literally saw Jim out on the football field while we were all together and stuff!''
 
-    {color=#99ccff}''And according to the pictures of a very alone Rick at the scene, obviously Jim couldn’t have been here and out on the field! I’m a freaking idiot!''
+    {color=#99ccff}''And according to Rick's pictures of a very Jim-less laboratory,
+    obviously Jim couldn’t have been both here and out on the field! I’m a freaking idiot!''
     """
 
     k "''That is not necessarily true.''"

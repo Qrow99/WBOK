@@ -429,7 +429,7 @@ yanchor=0)
 
     k "''Opinions?''"
 
-    r "{color=#FC983B}''Preferences, perspectives, beliefs. Like, dislikes, even apathetic
+    r "{color=#FC983B}''Preferences, perspectives, beliefs. Likes, dislikes, even apathetic
     feelings.''"
 
     r "{color=#FC983B}''If you have any opinions on anything, from people to politics to
@@ -553,7 +553,7 @@ yanchor=0)
     j "{color=#f388b8}''Um... okay then. If you insist.''"
 
     play sound "sfx_room_footsteps_exit.ogg"
-    stop rang fadeout 5.0
+    stop rang fadeout 3.0
 
     # stop flashing and siren
     show ocular crt at Position(xpos=0.5, xanchor=0.5, ypos=21,
@@ -691,7 +691,7 @@ yanchor=0)
 
     show rick neutral
 
-    r "{color=#FC983B}''An unusprising response.''"
+    r "{color=#FC983B}''An unsurprising response.''"
 
     play sound "sfx_karen_searching_loop.ogg" loop
 
@@ -783,7 +783,7 @@ yanchor=0)
 
     r "{color=#FC983B}''Exactly!''"
 
-    k "And this is exciting for you?''"
+    k "''And this is exciting for you?''"
 
     r "{color=#FC983B}''Of course!''"
 

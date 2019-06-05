@@ -588,7 +588,7 @@ yanchor=0) with dissolve
 
     show erika annoyed
 
-    e "{color=#99ccff}Heh. I should've figured it was something like that.''"
+    e "''{color=#99ccff}Heh. I should've figured it was something like that.''"
 
     show erika smug
 
@@ -1623,7 +1623,7 @@ label ITSSOMETHING:
 
     In the silence of the laboratory, I wait with confused and conflicting thoughts rushing through my mind.
 
-    The prospect is freedom is just within my reach, but the likelihood of accomplishing that goal is questionable at best.
+    The prospect of freedom is just within my reach, but the likelihood of accomplishing that goal is questionable at best.
 
     Even with the affirmations of Rick, Erika, and Nico fresh in my memory, I remain unsure of my readiness for the outside world.
 
@@ -1659,7 +1659,7 @@ label ITSSOMETHING:
     j "{color=#f388b8}''...''"
 
     "Creator stands, uncharacteristically quiet. His usual tendency for lighthearted and tangential banter seems to be strangely absent."
-    "For reasons unbeknownst to be, he seems to be holding back something, though what it is I cannot imagine."
+    "For reasons unbeknownst to me, he seems to be holding back something, though what it is I cannot imagine."
     "Perhaps I should try to say something, in order to lighten the mood."
 
     k "''Creator, now that I have passed, may I be freed from my binds?''"
